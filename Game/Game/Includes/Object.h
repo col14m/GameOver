@@ -1,13 +1,16 @@
 #pragma once
 
-extern class Vector {};
-extern class Sprite {};
+#include "Vector//Vector.h"
+#include "SFML//Main.hpp"
+#include "SFML//Graphics.hpp"
+
+extern class Engine {};
 
 class Object 
 {
 public:
 	Object();
-	Object(Vector coordinate, Vector velocity, size_t weight, Sprite sprite);
+	Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite);
 
 private:
 	virtual void Control();
@@ -15,8 +18,10 @@ private:
 	virtual void Physic();
 	virtual void Draw();
 	
-	Sprite sprite_;
-	
+	Engine *engine;
+	sf::Sprite sprite_;
+	size_t level_;
+
 	Vector coordinate_;
 	Vector velocity_;
 
