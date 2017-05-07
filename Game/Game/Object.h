@@ -1,7 +1,7 @@
 #pragma once
 
 extern class Vector {};
-extern class Sprite {};
+extern class Sprite {};//dd
 
 class Object 
 {
