@@ -30,6 +30,9 @@
     <ClInclude Include="Includes\Vector\Vector.h">
       <Filter>Includes\Vector</Filter>
     </ClInclude>
+    <ClInclude Include="Includes\Engine.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tests\test_1.cpp">

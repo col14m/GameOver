@@ -112,6 +112,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Includes\Engine.h" />
     <ClInclude Include="Includes\Vector\Vector.h" />
     <ClInclude Include="Object.h" />
   </ItemGroup>
