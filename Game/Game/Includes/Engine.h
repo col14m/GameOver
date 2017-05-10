@@ -4,7 +4,7 @@
 
 #include <list>
 
-#include "Object.h"
+#include "Objects//Object.h"
 
 class Engine
 {
@@ -19,6 +19,7 @@ public:
 
 	void logic();
 	void tick();
+	void run();
 private:
 
 	std::list<Object *> objectList_;
@@ -34,6 +35,8 @@ Engine::~Engine()
 
 void Engine::tick()
 {
+
+
 	logic();
 	for (auto &now: objectList_)
 	{

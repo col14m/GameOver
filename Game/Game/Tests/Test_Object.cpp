@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 #include "Object.h"
@@ -20,4 +20,4 @@ int main()
 	engine.Dump();
 	system("pause");
 	return 0;
-}
+}*/

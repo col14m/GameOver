@@ -22,16 +22,43 @@
     <Filter Include="Includes\Vector">
       <UniqueIdentifier>{c237f448-2a49-48ea-8297-bdd912eeb8ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Includes\Objects">
+      <UniqueIdentifier>{e68f8da7-bf26-4d36-9a9c-14b3a82da8a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Object.h">
-      <Filter>Includes</Filter>
-    </ClInclude>
     <ClInclude Include="Includes\Vector\Vector.h">
       <Filter>Includes\Vector</Filter>
     </ClInclude>
     <ClInclude Include="Includes\Engine.h">
       <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\Object.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\Barrier.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\Background.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\NPS.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\PowerUP.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\Train.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\Conductor.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\Obstruction.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\Hero.h">
+      <Filter>Includes\Objects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +70,9 @@
     </ClCompile>
     <ClCompile Include="Tests\Test_Object.cpp">
       <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Main.cpp">
+      <Filter>Codes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
