@@ -59,9 +59,18 @@ void Engine::logic()
 
 void Engine::run()
 {
-	while (true)
+	while (engineWindow_->isOpen())
 	{
+		sf::Event event;
+		while (engineWindow_->pollEvent(event))
+		{
+			if (event.type == sf::Event::Closed)
+				engineWindow_->close();
+		}
+		
+		engineWindow_->clear();
 		tick();
+		engineWindow_->display();
 	}
 }
 

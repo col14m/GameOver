@@ -17,7 +17,7 @@ int main()
 	sf::Texture BackgroundT;
 	BackgroundT.loadFromFile("Resourses/BackGround_long.png");
 	Background BackG(sf::Sprite(BackgroundT));
-	engine.addObject( (Object *) &BackG );
+	engine.addObject( new Background (sf::Sprite(BackgroundT)));
 	engine.run();
 	//Object test(coord, veloc, 10, sprite, 2);
 	//Object test2(coord, veloc, 12, sprite, 4);
