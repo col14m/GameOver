@@ -23,19 +23,23 @@ public:
 	void logic();
 	void tick();
 	void run();
+
+	sf::Window *getEngineWindow();
+
 private:
-	sf::Window* EngWind;
+	sf::Window *engineWindow_;
 	std::list<Object *> objectList_;
 };
 
 Engine::Engine()
 {
-	EngWind = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
-	assert(EngWind);
+	engineWindow_ = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
+	assert(engineWindow_);
 }
 
 Engine::~Engine()
 {
+	delete engineWindow_;
 }
 
 void Engine::tick()
@@ -80,4 +84,10 @@ void Engine::Dump(FILE *file)
 		now->Dump();
 	}
 	fprintf(file, "}\n");
+}
+
+
+sf::Window *Engine::getEngineWindow()
+{
+	return engineWindow_;
 }
