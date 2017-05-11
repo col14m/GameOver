@@ -24,10 +24,10 @@ public:
 	void tick();
 	void run();
 
-	sf::Window *getEngineWindow();
+	sf::RenderWindow *getEngineWindow();
 
 private:
-	sf::Window *engineWindow_;
+	sf::RenderWindow *engineWindow_;
 	std::list<Object *> objectList_;
 };
 
@@ -44,8 +44,6 @@ Engine::~Engine()
 
 void Engine::tick()
 {
-
-
 	logic();
 	for (auto &now: objectList_)
 	{
@@ -59,8 +57,18 @@ void Engine::tick()
 void Engine::logic()
 {}
 
+void Engine::run()
+{
+	while (true)
+	{
+		tick();
+	}
+}
+
 void Engine::addObject(Object *newObject)
 {
+	assert(newObject);
+
 	newObject->setEngine(this);
 	objectList_.push_back(newObject);
 }
@@ -78,6 +86,8 @@ void Engine::Dump()
 
 void Engine::Dump(FILE *file)
 {
+	assert(file);
+
 	fprintf(file, "Engine [0x%p] {\n", this);
 	for (auto &now : objectList_)
 	{
@@ -87,7 +97,7 @@ void Engine::Dump(FILE *file)
 }
 
 
-sf::Window *Engine::getEngineWindow()
+sf::RenderWindow *Engine::getEngineWindow()
 {
 	return engineWindow_;
 }

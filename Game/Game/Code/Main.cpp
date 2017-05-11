@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #include "Engine.h"
-//#include "Objects//Object.h"
+#include "Objects//Object.h"
 
 #include "SFML//Main.hpp"
 #include "SFML//Graphics.hpp"
