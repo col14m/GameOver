@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\Main.cpp" />
+    <ClCompile Include="Grafon_Ilya.cpp" />
     <ClCompile Include="Tests\test_1.cpp" />
     <ClCompile Include="Tests\Test_Object.cpp" />
     <ClCompile Include="Tests\Test_Vector.cpp" />
