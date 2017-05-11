@@ -9,14 +9,13 @@ public:
 
 	void Control();
 	void Logic();
-	void Physic(double time);
 	void Draw();
 private:
 
 };
 
 Train::Train(sf::Sprite sprite) :
-	Object(Vector(1100, 306), Vector(-100, 0), 100, sprite, 0)
+	Object(Vector(1100, 306), Vector(-300, 0), 100, sprite, 0)
 {}
 
 void Train::Control()
@@ -29,10 +28,7 @@ void Train::Logic()
 
 }
 
-void Train::Physic(double time)
-{
-	coordinate_ = coordinate_ + time * velocity_;
-}
+
 
 void Train::Draw()
 {

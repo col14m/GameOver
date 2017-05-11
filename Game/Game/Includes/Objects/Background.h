@@ -9,7 +9,6 @@ public:
 	~Background();
 	void Control();
 	void Logic();
-	void Physic(double time);
 	void Draw();
 private:
 
@@ -30,12 +29,6 @@ void Background::Control()
 void Background::Logic()
 {
 	coordinate_ = coordinate_ % ((2376 - 764) / 2);
-}
-
-void Background::Physic(double time)
-{
-	coordinate_ = coordinate_ + time * velocity_ ;
-	
 }
 
 void Background::Draw()

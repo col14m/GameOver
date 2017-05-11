@@ -13,12 +13,12 @@ public:
 
 	void Dump();
 	void Dump(FILE *file);
-
+	void Physic(double time);
 	void setEngine(Engine *engine);
 
 	virtual void Control();
 	virtual void Logic();
-	virtual void Physic(double time);
+	
 	virtual void Draw();
 protected:
 	Engine *engine_;
@@ -70,8 +70,12 @@ void Object::setEngine(Engine *engine)
 	engine_ = engine;
 }
 
+void Object::Physic(double time)
+{
+	coordinate_ = coordinate_ + time * velocity_;
+}
 
 void Object::Control(){}
 void Object::Logic(){}
-void Object::Physic(double time){}
+
 void Object::Draw(){}
