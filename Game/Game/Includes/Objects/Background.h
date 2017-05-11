@@ -2,7 +2,7 @@
 
 #include "Objects\Object.h"
 
-class Background : public Object//uui
+class Background : public Object
 {
 public:
 	void Control();
@@ -12,3 +12,23 @@ public:
 private:
 
 };
+
+void Background::Control()
+{
+
+}
+
+void Background::Logic()
+{
+
+}
+
+void Background::Physic()
+{
+
+}
+
+void Background::Draw()
+{
+
+}
