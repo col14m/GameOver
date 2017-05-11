@@ -27,6 +27,7 @@ public:
 	sf::RenderWindow *getEngineWindow();
 
 private:
+	sf::Clock clock_;
 	sf::RenderWindow *engineWindow_;
 	std::list<Object *> objectList_;
 };
@@ -35,6 +36,7 @@ Engine::Engine()
 {
 	engineWindow_ = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
 	assert(engineWindow_);
+	engineWindow_->setFramerateLimit(60);
 }
 
 Engine::~Engine()
@@ -42,12 +44,15 @@ Engine::~Engine()
 	delete engineWindow_;
 }
 
+
+
 void Engine::tick()
 {
+	double time = clock_.restart().asSeconds();
 	logic();
 	for (auto &now: objectList_)
 	{
-		now->Physic();
+		now->Physic(time);
 		now->Control();
 		now->Logic();
 		now->Draw();
@@ -61,6 +66,7 @@ void Engine::run()
 {
 	while (engineWindow_->isOpen())
 	{
+		
 		sf::Event event;
 		while (engineWindow_->pollEvent(event))
 		{

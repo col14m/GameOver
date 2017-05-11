@@ -18,7 +18,7 @@ public:
 
 	virtual void Control();
 	virtual void Logic();
-	virtual void Physic();
+	virtual void Physic(double time);
 	virtual void Draw();
 protected:
 	Engine *engine_;
@@ -73,5 +73,5 @@ void Object::setEngine(Engine *engine)
 
 void Object::Control(){}
 void Object::Logic(){}
-void Object::Physic(){}
+void Object::Physic(double time){}
 void Object::Draw(){}
