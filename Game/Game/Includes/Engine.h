@@ -27,6 +27,7 @@ private:
 
 Engine::Engine()
 {
+	
 }
 
 Engine::~Engine()
@@ -35,7 +36,6 @@ Engine::~Engine()
 
 void Engine::tick()
 {
-
 
 	logic();
 	for (auto &now: objectList_)
