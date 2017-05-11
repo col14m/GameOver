@@ -41,7 +41,7 @@ double Vector::GetX()
 double Vector::GetY()
 {
 	return y_;
-}
+}//
 
 double Vector::GetLength()
 {
