@@ -2,7 +2,9 @@
 
 #include <stdio.h>
 #include <assert.h>
+
 #include <list>
+#include <map>
 
 #include "Objects//Object.h"
 
@@ -32,10 +34,32 @@ private:
 	std::list<Object *> objectList_;
 };
 
+std::map<char *, sf::Texture *> texturesMap;
+
+int loadTexture()
+{
+	{
+		sf::Texture *BackgroundT = new sf::Texture;
+		BackgroundT->loadFromFile("Resourses/BackGround_long.png");
+
+		texturesMap["Background"] = BackgroundT;
+	}
+	{
+		sf::Texture *train = new sf::Texture;
+		train->loadFromFile("Resourses/train.png");
+
+		texturesMap["Train"] = train;
+	}
+
+	return 0;
+}
+
 Engine::Engine()
 {
 	engineWindow_ = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
 	assert(engineWindow_);
+
+	loadTexture();
 	engineWindow_->setFramerateLimit(60);
 }
 

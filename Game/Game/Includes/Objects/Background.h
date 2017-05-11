@@ -16,7 +16,7 @@ private:
 };
 
 Background::Background(sf::Sprite sprite) :
-	Object(Vector (0,0), Vector (-200, 0), 1000, sprite, 0)
+	Object(Vector(-100, 0), Vector(-200, 0), 1000, sprite, 0)
 {
 
 }
@@ -29,18 +29,18 @@ void Background::Control()
 
 void Background::Logic()
 {
-
+	coordinate_ = coordinate_ % ((2376 - 764) / 2);
 }
 
 void Background::Physic(double time)
 {
 	coordinate_ = coordinate_ + time * velocity_ ;
-	printf("%f\n", time);
+	
 }
 
 void Background::Draw()
 {
-	sprite_.setPosition(coordinate_.GetX(), coordinate_.GetY());
+	sprite_.setPosition(coordinate_.GetX() - 100/*Это просто куст*/, coordinate_.GetY());
 	//sprite_.setTextureRect(sf::IntRect(0, 0, 1080, 530));
 	engine_->getEngineWindow()->draw(sprite_);
 }

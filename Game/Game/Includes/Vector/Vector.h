@@ -18,7 +18,7 @@ public:
 
 	friend Vector operator +(const Vector &first, const Vector &second);
 	friend Vector operator *(double number, const Vector &vector);
-
+	friend Vector operator %(Vector &vector, long number);
 private:
 	double x_, y_;
 };
@@ -56,6 +56,7 @@ void Vector::Dump()
 
 void Vector::Dump(FILE *file)
 {
+	assert(file);
 	fprintf(file, "Vector {%3.3lf; %3.3lf};\n", x_, y_);
 }
 
@@ -70,3 +71,10 @@ Vector operator *(double number, const Vector &vector)
 	return Vector(number * vector.x_, number * vector.y_);
 }
 
+Vector operator %(Vector &vector, long number)
+{
+	vector.x_ = ((long) vector.x_) % number;
+	//yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy;
+	
+	return vector;
+}
