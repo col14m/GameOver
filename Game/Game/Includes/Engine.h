@@ -2,7 +2,9 @@
 
 #include <stdio.h>
 #include <assert.h>
+
 #include <list>
+#include <map>
 
 #include "Objects//Object.h"
 
@@ -24,17 +26,41 @@ public:
 	void tick();
 	void run();
 
-	sf::Window *getEngineWindow();
+	sf::RenderWindow *getEngineWindow();
 
 private:
-	sf::Window *engineWindow_;
+	sf::Clock clock_;
+	sf::RenderWindow *engineWindow_;
 	std::list<Object *> objectList_;
 };
+
+std::map<char *, sf::Texture *> texturesMap;
+
+int loadTexture()
+{
+	{
+		sf::Texture *BackgroundT = new sf::Texture;
+		BackgroundT->loadFromFile("Resourses/BackGround_long.png");
+
+		texturesMap["Background"] = BackgroundT;
+	}
+	{
+		sf::Texture *train = new sf::Texture;
+		train->loadFromFile("Resourses/train.png");
+
+		texturesMap["Train"] = train;
+	}
+
+	return 0;
+}
 
 Engine::Engine()
 {
 	engineWindow_ = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
 	assert(engineWindow_);
+
+	loadTexture();
+	engineWindow_->setFramerateLimit(60);
 }
 
 Engine::~Engine()
@@ -42,14 +68,15 @@ Engine::~Engine()
 	delete engineWindow_;
 }
 
+
+
 void Engine::tick()
 {
-
-
+	double time = clock_.restart().asSeconds();
 	logic();
 	for (auto &now: objectList_)
 	{
-		now->Physic();
+		now->Physic(time);
 		now->Control();
 		now->Logic();
 		now->Draw();
@@ -59,8 +86,28 @@ void Engine::tick()
 void Engine::logic()
 {}
 
+void Engine::run()
+{
+	while (engineWindow_->isOpen())
+	{
+		
+		sf::Event event;
+		while (engineWindow_->pollEvent(event))
+		{
+			if (event.type == sf::Event::Closed)
+				engineWindow_->close();
+		}
+		
+		engineWindow_->clear();
+		tick();
+		engineWindow_->display();
+	}
+}
+
 void Engine::addObject(Object *newObject)
 {
+	assert(newObject);
+
 	newObject->setEngine(this);
 	objectList_.push_back(newObject);
 }
@@ -78,6 +125,8 @@ void Engine::Dump()
 
 void Engine::Dump(FILE *file)
 {
+	assert(file);
+
 	fprintf(file, "Engine [0x%p] {\n", this);
 	for (auto &now : objectList_)
 	{
@@ -87,7 +136,7 @@ void Engine::Dump(FILE *file)
 }
 
 
-sf::Window *Engine::getEngineWindow()
+sf::RenderWindow *Engine::getEngineWindow()
 {
 	return engineWindow_;
 }
