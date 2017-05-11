@@ -1,13 +1,10 @@
 #pragma once
 
 #include <stdio.h>
-#include <assert.h>
+
 #include <list>
 
 #include "Objects//Object.h"
-
-#define WIN_H 530
-#define WIN_L 1060
 
 class Engine
 {
@@ -24,14 +21,13 @@ public:
 	void tick();
 	void run();
 private:
-	sf::Window* EngWind;
+
 	std::list<Object *> objectList_;
 };
 
 Engine::Engine()
 {
-	EngWind = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
-	assert(EngWind);
+	
 }
 
 Engine::~Engine()
@@ -40,7 +36,6 @@ Engine::~Engine()
 
 void Engine::tick()
 {
-
 
 	logic();
 	for (auto &now: objectList_)
