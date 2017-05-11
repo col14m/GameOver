@@ -2,7 +2,7 @@
 
 #include "Objects\Object.h"
 
-class Background : public Object
+class Background : public Object//uui
 {
 public:
 	void Control();
