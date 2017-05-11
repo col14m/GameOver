@@ -24,10 +24,10 @@ public:
 	void tick();
 	void run();
 
-	sf::Window *getEngineWindow();
+	sf::RenderWindow *getEngineWindow();
 
 private:
-	sf::Window *engineWindow_;
+	sf::RenderWindow *engineWindow_;
 	std::list<Object *> objectList_;
 };
 
@@ -87,7 +87,7 @@ void Engine::Dump(FILE *file)
 }
 
 
-sf::Window *Engine::getEngineWindow()
+sf::RenderWindow *Engine::getEngineWindow()
 {
 	return engineWindow_;
 }

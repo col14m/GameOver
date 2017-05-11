@@ -14,18 +14,19 @@
 int main()
 {
 	Engine engine;
-	Vector coord(1, 2);
-	Vector veloc(3, 4);
-	sf::Sprite sprite;
-
-	Object test(coord, veloc, 10, sprite, 2);
-	Object test2(coord, veloc, 12, sprite, 4);
-	test.Dump();
-	test2.Dump();
-	engine.addObject(&test);
-	engine.addObject(&test2);
+	sf::Texture BackgroundT;
+	BackgroundT.loadFromFile("Resourses/BackGround_long.png");
+	Background BackG(sf::Sprite(BackgroundT));
+	engine.addObject( (Object *) &BackG );
+	engine.run();
+	//Object test(coord, veloc, 10, sprite, 2);
+	//Object test2(coord, veloc, 12, sprite, 4);
+	//test.Dump();
+	//test2.Dump();
+	//engine.addObject(&test);
+	//engine.addObject(&test2);
 	//engine.Dump();
-
+/*
 	sf::RenderWindow window(sf::VideoMode(400, 400), "Test");
 	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Red);
@@ -43,7 +44,7 @@ int main()
 		window.draw(shape);
 		window.display();
 	}
-
+*/
 	system("pause");
 	
 	return 0;
