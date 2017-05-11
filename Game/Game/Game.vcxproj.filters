@@ -75,4 +75,15 @@
       <Filter>Codes</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resourses\BackGround_long.png">
+      <Filter>Resourses</Filter>
+    </Image>
+    <Image Include="Resourses\Run.png">
+      <Filter>Resourses</Filter>
+    </Image>
+    <Image Include="Resourses\Train.png">
+      <Filter>Resourses</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

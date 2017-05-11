@@ -136,6 +136,11 @@
     <ClCompile Include="Tests\Test_Object.cpp" />
     <ClCompile Include="Tests\Test_Vector.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resourses\BackGround_long.png" />
+    <Image Include="Resourses\Run.png" />
+    <Image Include="Resourses\Train.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
