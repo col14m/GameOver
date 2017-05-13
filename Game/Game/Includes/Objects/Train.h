@@ -5,34 +5,51 @@
 class Train : public Object
 {
 public:
-	Train(sf::Sprite sprite);
+	Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 
 	void Control();
-	void Logic();
+	int Logic();
 	void Draw();
 private:
 
 };
 
-Train::Train(sf::Sprite sprite) :
-	Object(Vector(1100, 306), Vector(-300, 0), 100, sprite, 0)
+Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
+	Object(coordinate, velocity, weight, sprite, level)
 {}
+
 
 void Train::Control()
 {
-
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+	{
+		velocity_ = 1.01 * velocity_;
+	}
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+	{
+		velocity_ = 0.99 * velocity_;
+	}
 }
 
-void Train::Logic()
+int Train::Logic()
 {
+	if (coordinate_.GetX() <= 0)
+	{
+		velocity_ = (-1) * velocity_;
+	}
 
+	if (coordinate_.GetX() >= 1200)
+	{
+		velocity_ = (-1) * velocity_;
+	}
+	
+	return 0;
 }
 
 
 
 void Train::Draw()
 {
-	sprite_.setPosition(coordinate_.GetX(), coordinate_.GetY());
+	sprite_.setPosition((float) coordinate_.GetX(), (float) coordinate_.GetY());
 	engine_->getEngineWindow()->draw(sprite_);
-	
 }

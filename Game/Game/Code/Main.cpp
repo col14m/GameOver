@@ -9,15 +9,15 @@
 
 #include "Objects//Background.h"
 #include "Objects//Train.h"
-
+#include "Objects//Hero.h"
 
 int main()
 {
 	Engine engine;
 
 	engine.addObject(new Background (sf::Sprite(*(texturesMap["Background"]))));
-	engine.addObject(new Train (sf::Sprite(*(texturesMap["Train"]))));
-
+	engine.addObject(new Train(Vector(1100, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 5));
+	engine.addObject(new Train(Vector(1000, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 3));
 	engine.run();
 	
 	system("pause");

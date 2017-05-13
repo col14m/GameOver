@@ -13,13 +13,15 @@ public:
 
 	void Dump();
 	void Dump(FILE *file);
+
 	void Physic(double time);
 	void setEngine(Engine *engine);
 
 	virtual void Control();
-	virtual void Logic();
-	
+	virtual int Logic();
 	virtual void Draw();
+
+	size_t GetLevel();
 protected:
 	Engine *engine_;
 	sf::Sprite sprite_;
@@ -54,6 +56,8 @@ void Object::Dump()
 
 void Object::Dump(FILE *file)
 {
+	assert(file);
+
 	fprintf(file, "Object [0x%p] {\n", this);
 	fprintf(file, "\tengine     : 0x%p;\n", engine_);
 	fprintf(file, "\tsprite     : 0x%p;\n", &sprite_);
@@ -67,15 +71,28 @@ void Object::Dump(FILE *file)
 
 void Object::setEngine(Engine *engine)
 {
+	assert(engine);
+
 	engine_ = engine;
 }
 
+
 void Object::Physic(double time)
 {
+	assert(time >= 0);
+
 	coordinate_ = coordinate_ + time * velocity_;
 }
 
 void Object::Control(){}
-void Object::Logic(){}
 
+int Object::Logic()
+{
+	return 0;
+}
 void Object::Draw(){}
+
+size_t Object::GetLevel()
+{
+	return level_;
+}
