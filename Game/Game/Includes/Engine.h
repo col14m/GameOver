@@ -21,6 +21,7 @@ public:
 	void Dump(FILE *file);
 
 	void addObject(Object *newObject);
+	void removeObject(Object *oldObject);
 
 	void logic();
 	void tick();
@@ -31,6 +32,7 @@ public:
 private:
 	sf::Clock clock_;
 	sf::RenderWindow *engineWindow_;
+
 	std::list<Object *> objectList_;
 };
 
@@ -54,6 +56,7 @@ int loadTexture()
 	return 0;
 }
 
+
 Engine::Engine()
 {
 	engineWindow_ = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
@@ -68,23 +71,6 @@ Engine::~Engine()
 	delete engineWindow_;
 }
 
-
-
-void Engine::tick()
-{
-	double time = clock_.restart().asSeconds();
-	logic();
-	for (auto &now: objectList_)
-	{
-		now->Physic(time);
-		now->Control();
-		now->Logic();
-		now->Draw();
-	}
-}
-
-void Engine::logic()
-{}
 
 void Engine::run()
 {
@@ -104,13 +90,59 @@ void Engine::run()
 	}
 }
 
+void Engine::tick()
+{
+	double time = (double) clock_.restart().asSeconds();
+	logic();
+	for (auto &now: objectList_)
+	{
+		now->Physic(time);
+		now->Control();
+		now->Logic();
+		now->Draw();
+	}
+}
+
+void Engine::logic()
+{
+
+}
+
 void Engine::addObject(Object *newObject)
 {
 	assert(newObject);
 
 	newObject->setEngine(this);
-	objectList_.push_back(newObject);
+	
+	if (objectList_.empty())
+	{
+		objectList_.push_back(newObject);
+	}
+	else
+	{
+		for (auto now = objectList_.begin();; )
+		{
+			if ((*now)->GetLevel() >= newObject->GetLevel())
+			{
+				objectList_.insert(now, newObject);
+				break;
+			}
+
+			if (++now == objectList_.end())
+			{
+				objectList_.push_back(newObject);
+				break;
+			}
+		}
+	}
 }
+
+void Engine::removeObject(Object *oldObject)
+{
+	assert(oldObject);
+
+}
+
 
 
 void Engine::Dump()

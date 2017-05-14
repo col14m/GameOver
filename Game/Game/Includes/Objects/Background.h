@@ -8,7 +8,7 @@ public:
 	Background(sf::Sprite sprite);
 	~Background();
 	void Control();
-	void Logic();
+	int Logic();
 	void Draw();
 private:
 
@@ -26,14 +26,15 @@ void Background::Control()
 
 }
 
-void Background::Logic()
+int Background::Logic()
 {
 	coordinate_ = coordinate_ % ((2376 - 764) / 2);
+	return 0;
 }
 
 void Background::Draw()
 {
-	sprite_.setPosition(coordinate_.GetX() - 100/*Это просто куст*/, coordinate_.GetY());
+	sprite_.setPosition((float) coordinate_.GetX() - 100/*Это просто куст*/, (float) coordinate_.GetY());
 	//sprite_.setTextureRect(sf::IntRect(0, 0, 1080, 530));
 	engine_->getEngineWindow()->draw(sprite_);
 }
