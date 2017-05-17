@@ -20,7 +20,7 @@
 
 #define LINE_END_X -400
 #define LINE1_END Vector(LINE_END_X, 201)
-#define LINE2_END Vector(LINE_END_X, 201)
+#define LINE2_END Vector(LINE_END_X, 330)
 #define LINE3_END Vector(LINE_END_X, 201)
 
 #define BG_VELOCITY Vector(-200, 0)
