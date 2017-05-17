@@ -6,13 +6,18 @@ class Background : public Object
 {
 public:
 	Background(sf::Sprite sprite);
+	Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 	~Background();
 	void Control();
-	int Logic();
+	Object_Condition Logic();
 	void Draw();
 private:
 
 };
+
+Background::Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
+	Object(coordinate, velocity, weight, sprite, level)
+{}
 
 Background::Background(sf::Sprite sprite) :
 	Object(Vector(-100, -530), Vector(-200, 0), 1000, sprite, 0)
@@ -26,10 +31,11 @@ void Background::Control()
 
 }
 
-int Background::Logic()
+Object_Condition Background::Logic()
 {
-	coordinate_ = coordinate_ % ((2376 - 764) / 2);
-	return 0;
+	if ( coordinate_.GetX() <= -((2376 - 764) / 2) )
+		coordinate_ = coordinate_ % ((2376 - 764) / 2);
+	return LIVE;
 }
 
 void Background::Draw()

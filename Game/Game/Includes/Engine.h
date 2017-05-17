@@ -11,6 +11,22 @@
 #define WIN_H 530
 #define WIN_L 1060
 
+
+#define LINE_BEGIN_X 1105
+#define LINE1_BEGIN Vector(LINE_BEGIN_X, 201) 
+#define LINE2_BEGIN Vector(LINE_BEGIN_X, 330)
+#define LINE3_BEGIN Vector(LINE_BEGIN_X, 440)
+//#define LINE4_BEGIN Vector(1100, 488) // нафиг 4 линию, она плохо смотрится
+
+#define LINE_END_X -400
+#define LINE1_END Vector(LINE_END_X, 201)
+#define LINE2_END Vector(LINE_END_X, 201)
+#define LINE3_END Vector(LINE_END_X, 201)
+
+#define BG_VELOCITY Vector(-200, 0)
+
+
+
 class Engine
 {
 public:
@@ -43,7 +59,7 @@ int loadTexture()
 	{
 		sf::Texture *BackgroundT = new sf::Texture;
 		BackgroundT->loadFromFile("Resourses/BackGround_long.png");
-
+		
 		texturesMap["Background"] = BackgroundT;
 	}
 	{
@@ -51,6 +67,18 @@ int loadTexture()
 		train->loadFromFile("Resourses/Train.png");
 
 		texturesMap["Train"] = train;
+	}
+	{
+		sf::Texture *conductor = new sf::Texture;
+		conductor->loadFromFile("Resourses/Conductor.png");
+
+		texturesMap["Conductor"] = conductor;
+	}
+	{
+		sf::Texture *hero = new sf::Texture;
+		hero->loadFromFile("Resourses/Hero.png");
+
+		texturesMap["Hero"] = hero;
 	}
 
 	return 0;
@@ -63,7 +91,7 @@ Engine::Engine()
 	assert(engineWindow_);
 
 	loadTexture();
-	engineWindow_->setFramerateLimit(60);
+	engineWindow_->setFramerateLimit(100);
 }
 
 Engine::~Engine()
