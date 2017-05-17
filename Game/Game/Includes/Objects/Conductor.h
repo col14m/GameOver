@@ -8,7 +8,7 @@ public:
 	Conductor(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 
 	void Control();
-	int  Logic();
+	Object_Condition  Logic();
 	void Draw();
 private:
 
@@ -23,10 +23,11 @@ void Conductor::Control()
 
 }
 
-int Conductor::Logic()
+Object_Condition Conductor::Logic()
 {
-
-	return 0;
+	if (coordinate_.GetX() <= LINE_END_X)
+		return DEAD;
+	return LIVE;
 }
 
 void Conductor::Draw()

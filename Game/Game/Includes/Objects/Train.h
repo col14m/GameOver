@@ -8,7 +8,7 @@ public:
 	Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 
 	void Control();
-	int Logic();
+	Object_Condition Logic();
 	void Draw();
 private:
 
@@ -33,7 +33,7 @@ void Train::Control()
 	
 }
 
-int Train::Logic()
+Object_Condition Train::Logic()
 {
 	if (coordinate_.GetX() <= 0)
 	{
@@ -45,7 +45,7 @@ int Train::Logic()
 		velocity_ = (-1) * velocity_;
 	}
 	
-	return 0;
+	return LIVE;
 }
 
 

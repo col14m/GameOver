@@ -6,7 +6,7 @@ class Barrier : public Object
 {
 public:
 	void Control();
-	int Logic();
+	Object_Condition Logic();
 	//void Physic();
 	void Draw();
 private:

@@ -5,6 +5,11 @@
 #include "SFML//Graphics.hpp"
 
 class Engine;
+enum Object_Condition
+{
+	LIVE = 0,
+	DEAD = 1
+};
 
 class Object 
 {
@@ -18,7 +23,7 @@ public:
 	void setEngine(Engine *engine);
 
 	virtual void Control();
-	virtual int Logic();
+	virtual Object_Condition Logic();
 	virtual void Draw();
 
 	size_t GetLevel();
@@ -88,9 +93,9 @@ void Object::Physic(double time)
 
 void Object::Control(){}
 
-int Object::Logic()
+Object_Condition Object::Logic()
 {
-	return 0;
+	return LIVE;
 }
 void Object::Draw(){}
 

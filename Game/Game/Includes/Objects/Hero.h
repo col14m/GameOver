@@ -6,7 +6,7 @@ class Hero : public Object
 {
 public:
 	void Control();
-	int Logic();
+	Object_Condition Logic();
 	void Physic();
 	void Draw();
 private:
@@ -18,9 +18,9 @@ void Hero::Control()
 
 }
 
-int Hero::Logic()
+Object_Condition Hero::Logic()
 {
-	return 0;
+	return LIVE;
 }
 
 void Hero::Physic()

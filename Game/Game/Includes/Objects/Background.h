@@ -9,7 +9,7 @@ public:
 	Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 	~Background();
 	void Control();
-	int Logic();
+	Object_Condition Logic();
 	void Draw();
 private:
 
@@ -31,11 +31,11 @@ void Background::Control()
 
 }
 
-int Background::Logic()
+Object_Condition Background::Logic()
 {
 	if ( coordinate_.GetX() <= -((2376 - 764) / 2) )
 		coordinate_ = coordinate_ % ((2376 - 764) / 2);
-	return 0;
+	return LIVE;
 }
 
 void Background::Draw()

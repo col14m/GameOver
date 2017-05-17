@@ -12,17 +12,20 @@
 #define WIN_L 1060
 
 
-
-#define LINE1_BEGIN Vector(1105, 201) 
-#define LINE2_BEGIN Vector(1105, 330)
-#define LINE3_BEGIN Vector(1105, 440)
+#define LINE_BEGIN_X 1105
+#define LINE1_BEGIN Vector(LINE_BEGIN_X, 201) 
+#define LINE2_BEGIN Vector(LINE_BEGIN_X, 330)
+#define LINE3_BEGIN Vector(LINE_BEGIN_X, 440)
 //#define LINE4_BEGIN Vector(1100, 488) // нафиг 4 линию, она плохо смотрится
 
-#define LINE1_END Vector(-400, 201)
-#define LINE2_END Vector(-400, 201)
-#define LINE3_END Vector(-400, 201)
+#define LINE_END_X -400
+#define LINE1_END Vector(LINE_END_X, 201)
+#define LINE2_END Vector(LINE_END_X, 201)
+#define LINE3_END Vector(LINE_END_X, 201)
 
 #define BG_VELOCITY Vector(-200, 0)
+
+
 
 class Engine
 {
