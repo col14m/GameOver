@@ -53,7 +53,7 @@ Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite spr
 	width_ = sprite_.getTextureRect().width;
 	height_ = sprite_.getTextureRect().height;
 
-	sprite_.setOrigin(sf::Vector2f((float) 0, (float) (-1)*height_));
+	sprite_.setOrigin(sf::Vector2f((float) 0, (float) height_));
 }
 
 void Object::Dump()
