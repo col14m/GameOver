@@ -35,14 +35,9 @@ void Train::Control()
 
 Object_Condition Train::Logic()
 {
-	if (coordinate_.GetX() <= 0)
+	if ((coordinate_.GetX() <= (-1)*width_) || (coordinate_.GetX() >= 1200))
 	{
-		velocity_ = (-1) * velocity_;
-	}
-
-	if (coordinate_.GetX() >= 1200)
-	{
-		velocity_ = (-1) * velocity_;
+		return KILL_ME;
 	}
 	
 	return LIVE;

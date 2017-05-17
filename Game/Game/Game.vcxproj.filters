@@ -74,9 +74,6 @@
     <ClCompile Include="Code\Main.cpp">
       <Filter>Codes</Filter>
     </ClCompile>
-    <ClCompile Include="Grafon_Ilya.cpp">
-      <Filter>Codes</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resourses\BackGround_long.png">

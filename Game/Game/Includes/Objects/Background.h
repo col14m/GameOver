@@ -20,7 +20,7 @@ Background::Background(Vector coordinate, Vector velocity, size_t weight, sf::Sp
 {}
 
 Background::Background(sf::Sprite sprite) :
-	Object(Vector(-100, 0), Vector(-200, 0), 1000, sprite, 0)
+	Object(Vector(-100, -530), Vector(-200, 0), 1000, sprite, 0)
 {
 
 }

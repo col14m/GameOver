@@ -36,6 +36,8 @@ protected:
 	Vector velocity_;
 
 	size_t weight_;
+	double width_;
+	double height_;
 };
 
 Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
@@ -44,9 +46,14 @@ Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite spr
 	level_(level),
 	coordinate_(coordinate),
 	velocity_(velocity),
-	weight_(weight)
+	weight_(weight),
+	width_(0),
+	height_(0)
 {
-	sprite_.setOrigin(0, sprite.getTextureRect().height);
+	width_ = sprite_.getTextureRect().width;
+	height_ = sprite_.getTextureRect().height;
+
+	sprite_.setOrigin(sf::Vector2f((float) 0, (float) height_));
 }
 
 void Object::Dump()
@@ -97,9 +104,16 @@ Object_Condition Object::Logic()
 {
 	return LIVE;
 }
+
 void Object::Draw(){}
 
 size_t Object::GetLevel()
 {
 	return level_;
 }
+
+enum ObjectActions
+{
+	ALL_OK,
+	KILL_ME
+};

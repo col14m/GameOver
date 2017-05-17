@@ -64,7 +64,7 @@ int loadTexture()
 	}
 	{
 		sf::Texture *train = new sf::Texture;
-		train->loadFromFile("Resourses/train.png");
+		train->loadFromFile("Resourses/Train.png");
 
 		texturesMap["Train"] = train;
 	}
@@ -121,12 +121,25 @@ void Engine::run()
 void Engine::tick()
 {
 	double time = (double) clock_.restart().asSeconds();
+	int objectState = ALL_OK;
+
 	logic();
 	for (auto &now: objectList_)
 	{
 		now->Physic(time);
 		now->Control();
-		now->Logic();
+		objectState = now->Logic();
+		
+		if (objectState == ALL_OK)
+		{
+		
+		}
+		else if (objectState == KILL_ME)
+		{
+			//removeObject(now);
+			continue;
+		}
+		
 		now->Draw();
 	}
 }
@@ -169,6 +182,8 @@ void Engine::removeObject(Object *oldObject)
 {
 	assert(oldObject);
 
+	objectList_.remove(oldObject);
+	free(oldObject);
 }
 
 
