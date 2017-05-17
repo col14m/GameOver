@@ -88,5 +88,8 @@
     <Image Include="Resourses\Train.png">
       <Filter>Resourses</Filter>
     </Image>
+    <Image Include="Resourses\Hero_ik1.png">
+      <Filter>Resourses</Filter>
+    </Image>
   </ItemGroup>
 </Project>

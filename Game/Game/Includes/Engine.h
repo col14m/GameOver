@@ -52,6 +52,12 @@ int loadTexture()
 
 		texturesMap["Train"] = train;
 	}
+	{
+		sf::Texture *hero = new sf::Texture;
+		hero->loadFromFile("Resourses/Hero_ik1.png");
+
+		texturesMap["Hero"] = hero;
+	}
 
 	return 0;
 }

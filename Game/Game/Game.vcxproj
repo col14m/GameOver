@@ -139,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resourses\BackGround_long.png" />
+    <Image Include="Resourses\Hero_ik1.png" />
     <Image Include="Resourses\Run.png" />
     <Image Include="Resourses\Train.png" />
   </ItemGroup>
