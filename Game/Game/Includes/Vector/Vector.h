@@ -14,6 +14,8 @@ public:
 	double GetY();
 	double GetLength();
 
+	double SetX(double x);
+	double SetY(double y);
 	void Dump();
 	void Dump(FILE *file);
 
@@ -79,4 +81,10 @@ Vector operator %(Vector &vector, long number)
 	//yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy;
 	//Vector tmp = 
 	return vector;
+}
+
+double Vector::SetY(double y)
+{
+	y_ = y;
+	return y;
 }

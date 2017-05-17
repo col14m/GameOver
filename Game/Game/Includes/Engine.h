@@ -74,6 +74,12 @@ int loadTexture()
 
 		texturesMap["Conductor"] = conductor;
 	}
+	{
+		sf::Texture *hero = new sf::Texture;
+		hero->loadFromFile("Resourses/Hero.png");
+
+		texturesMap["Hero"] = hero;
+	}
 
 	return 0;
 }
