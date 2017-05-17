@@ -33,16 +33,11 @@ void Train::Control()
 
 int Train::Logic()
 {
-	if (coordinate_.GetX() <= 0)
+	if ((coordinate_.GetX() <= (-1)*width_) || (coordinate_.GetX() >= 1200))
 	{
-		velocity_ = (-1) * velocity_;
+		return KILL_ME;
 	}
 
-	if (coordinate_.GetX() >= 1200)
-	{
-		velocity_ = (-1) * velocity_;
-	}
-	
 	return 0;
 }
 
