@@ -40,7 +40,9 @@ Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite spr
 	coordinate_(coordinate),
 	velocity_(velocity),
 	weight_(weight)
-{}
+{
+	sprite_.setOrigin(0, sprite.getTextureRect().height);
+}
 
 void Object::Dump()
 {

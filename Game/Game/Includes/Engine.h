@@ -43,7 +43,7 @@ int loadTexture()
 	{
 		sf::Texture *BackgroundT = new sf::Texture;
 		BackgroundT->loadFromFile("Resourses/BackGround_long.png");
-
+		
 		texturesMap["Background"] = BackgroundT;
 	}
 	{
@@ -69,7 +69,7 @@ Engine::Engine()
 	assert(engineWindow_);
 
 	loadTexture();
-	engineWindow_->setFramerateLimit(60);
+	engineWindow_->setFramerateLimit(150);
 }
 
 Engine::~Engine()

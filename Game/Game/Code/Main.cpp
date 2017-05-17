@@ -15,12 +15,13 @@
 int main()
 {
 	Engine engine;
+	// јхтунг! я поставил Origin каждого спрайта в нижний левый угол!!!!
+	// ≈сли будете добавл€ть спрайты и героев, это будет сделано автоматом
 
-	//engine.addObject(new Background (sf::Sprite(*(texturesMap["Background"]))));
-	engine.addObject(new Background(Vector(-100, 0), Vector(-200, 0), 1000, sf::Sprite(*(texturesMap["Background"])), 0));
+	engine.addObject(new Background(Vector(-100, texturesMap["Background"]->getSize().y), Vector(-200, 0), 1000, sf::Sprite(*(texturesMap["Background"])), 0));
 	engine.addObject(new Train(Vector(1100, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 5));
-	engine.addObject(new Train(Vector(1000, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 3));
-	engine.addObject(new Conductor(Vector(1000, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Conductor"])), 1));
+	//engine.addObject(new Train(Vector(1000, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 3));
+	engine.addObject(new Conductor(Vector(1000, 250), Vector(-200, 0), 1000, sf::Sprite(*(texturesMap["Conductor"])), 1));
 	
 
 	engine.run();

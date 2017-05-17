@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Vector.h"
+
 #include <stdio.h>
 #include <math.h>
 
@@ -75,6 +77,6 @@ Vector operator %(Vector &vector, long number)
 {
 	vector.x_ = ((long) vector.x_) % number;
 	//yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy;
-	
+	//Vector tmp = 
 	return vector;
 }

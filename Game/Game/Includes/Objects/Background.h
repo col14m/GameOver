@@ -32,8 +32,9 @@ void Background::Control()
 }
 
 int Background::Logic()
-{
-	coordinate_ = coordinate_ % ((2376 - 764) / 2);
+
+	if ( coordinate_.GetX() <= -((2376 - 764) / 2) )
+		coordinate_ = coordinate_ % ((2376 - 764) / 2);
 	return 0;
 }
 
