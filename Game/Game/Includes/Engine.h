@@ -11,6 +11,19 @@
 #define WIN_H 530
 #define WIN_L 1060
 
+
+
+#define LINE1_BEGIN Vector(1105, 201) 
+#define LINE2_BEGIN Vector(1105, 330)
+#define LINE3_BEGIN Vector(1105, 440)
+//#define LINE4_BEGIN Vector(1100, 488) // нафиг 4 линию, она плохо смотрится
+
+#define LINE1_END Vector(-400, 201)
+#define LINE2_END Vector(-400, 201)
+#define LINE3_END Vector(-400, 201)
+
+#define BG_VELOCITY Vector(-200, 0)
+
 class Engine
 {
 public:
@@ -69,7 +82,7 @@ Engine::Engine()
 	assert(engineWindow_);
 
 	loadTexture();
-	engineWindow_->setFramerateLimit(150);
+	engineWindow_->setFramerateLimit(100);
 }
 
 Engine::~Engine()

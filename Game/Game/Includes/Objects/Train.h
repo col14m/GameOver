@@ -21,6 +21,7 @@ Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprit
 
 void Train::Control()
 {
+	
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
 		velocity_ = 1.01 * velocity_;
@@ -29,6 +30,7 @@ void Train::Control()
 	{
 		velocity_ = 0.99 * velocity_;
 	}
+	
 }
 
 int Train::Logic()
