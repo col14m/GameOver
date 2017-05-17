@@ -1,63 +1,50 @@
 #pragma once
-#include <Windows.h>
-#include "Objects\Object.h"
 
-#define SIZE_X 105
-#define SIZE_Y 125
+#include "Objects\Object.h"
 
 class Hero : public Object
 {
 public:
-	
 	Hero(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 	void Control();
-	int Logic();
-	void Physic();
+	Object_Condition Logic();
+	//void Physic();
 	void Draw();
 private:
-	size_t frames_;
-	size_t  countFrames_;
+
 };
 
 Hero::Hero(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
-	Object(coordinate, velocity, weight, sprite, level),
-	frames_ (0),
-	countFrames_(0)
+	Object(coordinate, velocity, weight, sprite, level)
 {}
-
 
 void Hero::Control()
 {
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
 	{
-		velocity_ = 1.01 * velocity_;
+		if (coordinate_.GetY() == LINE1_BEGIN.GetY())
+			;
+		else if (coordinate_.GetY() == LINE2_BEGIN.GetY())
+			coordinate_.SetY(LINE1_BEGIN.GetY());
+		else if (coordinate_.GetY() == LINE3_BEGIN.GetY())
+			coordinate_.SetY(LINE2_BEGIN.GetY());
 	}
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
 	{
-		velocity_ = 0.99 * velocity_;
+		if (coordinate_.GetY() == LINE3_BEGIN.GetY())
+			;
+		else if (coordinate_.GetY() == LINE2_BEGIN.GetY())
+			coordinate_.SetY(LINE3_BEGIN.GetY());
+		else if (coordinate_.GetY() == LINE1_BEGIN.GetY())
+			coordinate_.SetY(LINE2_BEGIN.GetY());
 	}
 }
 
-int Hero::Logic()
+Object_Condition Hero::Logic()
 {
-	sprite_.setTextureRect(sf::IntRect((12 - frames_ % 13) * SIZE_X, 0, SIZE_X, SIZE_Y));
-	//Sleep(500);
-	countFrames_++;
-	if (countFrames_ == 7)
-	{
-		printf("%lu\n", frames_);
-		frames_++;
-		frames_ %= 13;
-		countFrames_ = 0;
-	}
-
-	return 0;
+	return LIVE;
 }
 
-void Hero::Physic()
-{
-
-}
 
 void Hero::Draw()
 {

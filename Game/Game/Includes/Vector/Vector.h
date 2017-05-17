@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Vector.h"
+
 #include <stdio.h>
 #include <math.h>
 
@@ -12,6 +14,8 @@ public:
 	double GetY();
 	double GetLength();
 
+	double SetX(double x);
+	double SetY(double y);
 	void Dump();
 	void Dump(FILE *file);
 
@@ -75,6 +79,12 @@ Vector operator %(Vector &vector, long number)
 {
 	vector.x_ = ((long) vector.x_) % number;
 	//yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy;
-	
+	//Vector tmp = 
 	return vector;
+}
+
+double Vector::SetY(double y)
+{
+	y_ = y;
+	return y;
 }

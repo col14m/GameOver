@@ -10,18 +10,25 @@
 #include "Objects//Background.h"
 #include "Objects//Train.h"
 #include "Objects//Hero.h"
+#include "Objects//Conductor.h"
 
 int main()
 {
 	Engine engine;
+	// јхтунг! я поставил Origin каждого спрайта в нижний левый угол!!!!
+	// ≈сли будете добавл€ть спрайты и героев, это будет сделано автоматом
 
-	engine.addObject(new Background(sf::Sprite(*(texturesMap["Background"]))));
-	//engine.addObject(new Train(Vector(1100, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 5));
-	engine.addObject(new Hero(Vector(0, 0), Vector(30 ,0), 20, sf::Sprite(*(texturesMap["Hero"])), 3));
-	//engine.addObject(new Train(Vector(1000, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 3));
+	engine.addObject(new Background(Vector(-100, WIN_H), BG_VELOCITY, 1000, sf::Sprite(*(texturesMap["Background"])), 0));
+	engine.addObject(new Train(LINE2_BEGIN, 2 * BG_VELOCITY, 100, sf::Sprite(*(texturesMap["Train"])), 2));
+	engine.addObject(new Train(LINE3_BEGIN, BG_VELOCITY, 100, sf::Sprite(*(texturesMap["Train"])), 3));
+	//engine.addObject(new Conductor(LINE1_BEGIN, BG_VELOCITY, 1000, sf::Sprite(*(texturesMap["Conductor"])), 1));
+	//engine.addObject(new Conductor(LINE3_BEGIN, BG_VELOCITY, 1000, sf::Sprite(*(texturesMap["Conductor"])), 4));
+	engine.addObject(new Hero(LINE3_BEGIN, BG_VELOCITY, 1000, sf::Sprite(*(texturesMap["Hero"])), 4));
+
+
 	engine.run();
-
+	
 	system("pause");
-
+	
 	return 0;
 }

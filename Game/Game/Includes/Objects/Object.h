@@ -5,6 +5,11 @@
 #include "SFML//Graphics.hpp"
 
 class Engine;
+enum Object_Condition
+{
+	LIVE = 0,
+	DEAD = 1
+};
 
 class Object 
 {
@@ -18,7 +23,7 @@ public:
 	void setEngine(Engine *engine);
 
 	virtual void Control();
-	virtual int Logic();
+	virtual Object_Condition Logic();
 	virtual void Draw();
 
 	size_t GetLevel();
@@ -31,6 +36,8 @@ protected:
 	Vector velocity_;
 
 	size_t weight_;
+	double width_;
+	double height_;
 };
 
 Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
@@ -39,8 +46,15 @@ Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite spr
 	level_(level),
 	coordinate_(coordinate),
 	velocity_(velocity),
-	weight_(weight)
-{}
+	weight_(weight),
+	width_(0),
+	height_(0)
+{
+	width_ = sprite_.getTextureRect().width;
+	height_ = sprite_.getTextureRect().height;
+
+	sprite_.setOrigin(sf::Vector2f((float) 0, (float) height_));
+}
 
 void Object::Dump()
 {
@@ -86,13 +100,20 @@ void Object::Physic(double time)
 
 void Object::Control(){}
 
-int Object::Logic()
+Object_Condition Object::Logic()
 {
-	return 0;
+	return LIVE;
 }
+
 void Object::Draw(){}
 
 size_t Object::GetLevel()
 {
 	return level_;
 }
+
+enum ObjectActions
+{
+	ALL_OK,
+	KILL_ME
+};
