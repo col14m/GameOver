@@ -6,8 +6,8 @@ class Barrier : public Object
 {
 public:
 	void Control();
-	void Logic();
-	void Physic();
+	int Logic();
+	//void Physic();
 	void Draw();
 private:
 

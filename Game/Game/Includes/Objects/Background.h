@@ -6,6 +6,7 @@ class Background : public Object
 {
 public:
 	Background(sf::Sprite sprite);
+	Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 	~Background();
 	void Control();
 	int Logic();
@@ -13,6 +14,10 @@ public:
 private:
 
 };
+
+Background::Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
+	Object(coordinate, velocity, weight, sprite, level)
+{}
 
 Background::Background(sf::Sprite sprite) :
 	Object(Vector(-100, 0), Vector(-200, 0), 1000, sprite, 0)

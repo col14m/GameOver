@@ -10,14 +10,19 @@
 #include "Objects//Background.h"
 #include "Objects//Train.h"
 #include "Objects//Hero.h"
+#include "Objects//Conductor.h"
 
 int main()
 {
 	Engine engine;
 
-	engine.addObject(new Background (sf::Sprite(*(texturesMap["Background"]))));
+	//engine.addObject(new Background (sf::Sprite(*(texturesMap["Background"]))));
+	engine.addObject(new Background(Vector(-100, 0), Vector(-200, 0), 1000, sf::Sprite(*(texturesMap["Background"])), 0));
 	engine.addObject(new Train(Vector(1100, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 5));
 	engine.addObject(new Train(Vector(1000, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Train"])), 3));
+	engine.addObject(new Conductor(Vector(1000, 250), Vector(-200, 0), 100, sf::Sprite(*(texturesMap["Conductor"])), 1));
+	
+
 	engine.run();
 	
 	system("pause");
