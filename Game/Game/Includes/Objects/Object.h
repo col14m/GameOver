@@ -22,7 +22,7 @@ public:
 	void Physic(double time);
 	void setEngine(Engine *engine);
 
-	virtual void Control();
+	virtual void Control(sf::Event);
 	virtual Object_Condition Logic();
 	virtual void Draw();
 
@@ -98,7 +98,7 @@ void Object::Physic(double time)
 	coordinate_ = coordinate_ + time * velocity_;
 }
 
-void Object::Control(){}
+void Object::Control(sf::Event event){}
 
 Object_Condition Object::Logic()
 {
@@ -111,9 +111,3 @@ size_t Object::GetLevel()
 {
 	return level_;
 }
-
-enum ObjectActions
-{
-	ALL_OK,
-	KILL_ME
-};

@@ -37,7 +37,7 @@ Object_Condition Train::Logic()
 {
 	if ((coordinate_.GetX() <= (-1)*width_) || (coordinate_.GetX() >= 1200))
 	{
-		return KILL_ME;
+		return DEAD;
 	}
 	
 	return LIVE;

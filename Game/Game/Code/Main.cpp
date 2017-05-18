@@ -23,7 +23,7 @@ int main()
 	engine.addObject(new Train(LINE3_BEGIN, BG_VELOCITY, 100, sf::Sprite(*(texturesMap["Train"])), 3));
 	//engine.addObject(new Conductor(LINE1_BEGIN, BG_VELOCITY, 1000, sf::Sprite(*(texturesMap["Conductor"])), 1));
 	//engine.addObject(new Conductor(LINE3_BEGIN, BG_VELOCITY, 1000, sf::Sprite(*(texturesMap["Conductor"])), 4));
-	engine.addObject(new Hero(LINE3_BEGIN, BG_VELOCITY, 1000, sf::Sprite(*(texturesMap["Hero"])), 4));
+	engine.addObject(new Hero(Vector(50, LINE3_BEGIN.GetY()), Vector(0,0), 1000, sf::Sprite(*(texturesMap["Hero"])), 4));
 
 
 	engine.run();
