@@ -20,7 +20,7 @@
 
 #define LINE_END_X -400
 #define LINE1_END Vector(LINE_END_X, 201)
-#define LINE2_END Vector(LINE_END_X, 201)
+#define LINE2_END Vector(LINE_END_X, 330)
 #define LINE3_END Vector(LINE_END_X, 201)
 
 #define BG_VELOCITY Vector(-200, 0)
@@ -40,7 +40,7 @@ public:
 	void removeObject(Object *oldObject);
 
 	void logic();
-	void tick();
+	void tick(sf::Event);
 	void run();
 
 	sf::RenderWindow *getEngineWindow();
@@ -106,35 +106,47 @@ void Engine::run()
 	{
 		
 		sf::Event event;
+		/*
+		//engineWindow_->
 		while (engineWindow_->pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed)
 				engineWindow_->close();
+			//if (event.type == sf::Event::KeyPressed)
+			//{
+				//if (event.key.code == sf::Keyboard::Up)
+					//printf("iuyuihyuihyuiyui\n");
+			//}
 		}
-		
+		*/
+		engineWindow_->pollEvent(event);
+		if (event.type == sf::Event::Closed)
+			engineWindow_->close();
+
+
 		engineWindow_->clear();
-		tick();
+		tick(event);
 		engineWindow_->display();
 	}
 }
 
-void Engine::tick()
+void Engine::tick(sf::Event event)
 {
 	double time = (double) clock_.restart().asSeconds();
-	int objectState = ALL_OK;
+	Object_Condition objectState = LIVE;
 
 	logic();
 	for (auto &now: objectList_)
 	{
 		now->Physic(time);
-		now->Control();
+		now->Control(event);
 		objectState = now->Logic();
 		
-		if (objectState == ALL_OK)
+		if (objectState == LIVE)
 		{
 		
 		}
-		else if (objectState == KILL_ME)
+		else if (objectState == DEAD)
 		{
 			//removeObject(now);
 			continue;
