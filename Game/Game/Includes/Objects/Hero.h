@@ -30,10 +30,10 @@ Object_Condition Hero::Logic()
 	return LIVE;
 }
 
-void Hero::Physic()
+/*void Hero::Physic()
 {
 
-}
+}*/
 
 void Hero::Draw()
 {

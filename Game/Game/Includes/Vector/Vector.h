@@ -16,9 +16,9 @@ public:
 
 	double SetX(double x);
 	double SetY(double y);
+
 	void Dump();
 	void Dump(FILE *file);
-
 
 	friend Vector operator +(const Vector &first, const Vector &second);
 	friend Vector operator *(double number, const Vector &vector);
@@ -45,7 +45,7 @@ double Vector::GetX()
 double Vector::GetY()
 {
 	return y_;
-}//
+}
 
 double Vector::GetLength()
 {
@@ -61,6 +61,7 @@ void Vector::Dump()
 void Vector::Dump(FILE *file)
 {
 	assert(file);
+
 	fprintf(file, "Vector {%3.3lf; %3.3lf};\n", x_, y_);
 }
 
@@ -87,4 +88,10 @@ double Vector::SetY(double y)
 {
 	y_ = y;
 	return y;
+}
+
+double Vector::SetX(double x)
+{
+	x_ = x;
+	return x;
 }

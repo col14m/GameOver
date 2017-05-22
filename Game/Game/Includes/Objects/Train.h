@@ -21,7 +21,6 @@ Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprit
 
 void Train::Control()
 {
-	
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
 		velocity_ = 1.01 * velocity_;
@@ -37,7 +36,7 @@ Object_Condition Train::Logic()
 {
 	if ((coordinate_.GetX() <= (-1)*width_) || (coordinate_.GetX() >= 1200))
 	{
-		return KILL_ME;
+		return DEAD;
 	}
 	
 	return LIVE;
