@@ -8,8 +8,8 @@ public:
 	Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 
 	void Control();
-	Object_Condition Logic();
-	Object_Condition Intersection(Object *interation);
+	ObjectCondition Logic();
+	ObjectCondition Intersection(Object *interation);
 	void Draw();
 private:
 
@@ -17,7 +17,9 @@ private:
 
 Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
 	Object(coordinate, velocity, weight, sprite, level)
-{}
+{
+	type_ = Train_t;
+}
 
 
 void Train::Control()
@@ -33,7 +35,7 @@ void Train::Control()
 	
 }
 
-Object_Condition Train::Logic()
+ObjectCondition Train::Logic()
 {
 	if ((coordinate_.GetX() <= (-1)*width_) || (coordinate_.GetX() >= 1200))
 	{
@@ -43,7 +45,7 @@ Object_Condition Train::Logic()
 	return LIVE;
 }
 
-Object_Condition Train::Intersection(Object *interation)
+ObjectCondition Train::Intersection(Object *interation)
 {
 	assert(interation);
 

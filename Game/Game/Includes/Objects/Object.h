@@ -5,11 +5,9 @@
 #include "SFML//Graphics.hpp"
 
 class Engine;
-enum Object_Condition
-{
-	LIVE = 0,
-	DEAD = 1
-};
+
+enum ObjectCondition;
+enum ObjectType;
 
 class Object 
 {
@@ -24,9 +22,10 @@ public:
 
 	virtual void Draw();
 	virtual void Control();
-	virtual Object_Condition Logic();
-	virtual Object_Condition Intersection(Object *interation);
+	virtual ObjectCondition Logic();
+	virtual ObjectCondition Intersection(Object *interation);
 
+	ObjectType GetType();
 	size_t GetLevel();
 	Vector GetCoordinate();
 	double GetWidth();
@@ -42,7 +41,29 @@ protected:
 	size_t weight_;
 	double width_;
 	double height_;
+
+	ObjectType type_;
 };
+
+enum ObjectType
+{
+	Object_t,
+	Background_t,
+	Barrier_t,
+	Conductor_t,
+	Hero_t,
+	NPS_t,
+	Obstruction_t,
+	PowerUP_t,
+	Train_t
+};
+
+enum ObjectCondition
+{
+	LIVE = 0,
+	DEAD = 1
+};
+
 
 Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
 	engine_(NULL),
@@ -52,7 +73,8 @@ Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite spr
 	velocity_(velocity),
 	weight_(weight),
 	width_(0),
-	height_(0)
+	height_(0),
+	type_(Object_t)
 {
 	width_ = sprite_.getTextureRect().width;
 	height_ = sprite_.getTextureRect().height;
@@ -107,12 +129,12 @@ void Object::Draw() {}
 
 void Object::Control() {}
 
-Object_Condition Object::Logic()
+ObjectCondition Object::Logic()
 {
 	return LIVE;
 }
 
-Object_Condition Object::Intersection(Object *interation) 
+ObjectCondition Object::Intersection(Object *interation) 
 {
 	return LIVE;
 }
@@ -131,4 +153,9 @@ Vector Object::GetCoordinate()
 double Object::GetWidth()
 {
 	return width_;
+}
+
+ObjectType Object::GetType()
+{
+	return type_;
 }

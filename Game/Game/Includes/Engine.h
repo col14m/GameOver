@@ -40,7 +40,7 @@ public:
 	void removeObject(Object *oldObject);
 
 	void logic();
-	void tick(sf::Event);
+	void tick();
 	void run();
 
 	sf::RenderWindow *getEngineWindow();
@@ -104,36 +104,26 @@ void Engine::run()
 {
 	while (engineWindow_->isOpen())
 	{
-		
 		sf::Event event;
-		/*
-		//engineWindow_->
-		while (engineWindow_->pollEvent(event))
-		{
-			if (event.type == sf::Event::Closed)
-				engineWindow_->close();
-			//if (event.type == sf::Event::KeyPressed)
-			//{
-				//if (event.key.code == sf::Keyboard::Up)
-					//printf("iuyuihyuihyuiyui\n");
-			//}
-		}
-		*/
+		
 		engineWindow_->pollEvent(event);
 		if (event.type == sf::Event::Closed)
+		{
 			engineWindow_->close();
-
+		}
 
 		engineWindow_->clear();
-		tick(event);
+		tick();
 		engineWindow_->display();
 	}
 }
 
-void Engine::tick(sf::Event event)
+void Engine::tick()
 {
 	double time = (double) clock_.restart().asSeconds();
-	Object_Condition objectState = LIVE;
+	ObjectCondition objectState = LIVE;
+
+	std::list<Object *> listOnDelete;
 
 	logic();
 	for (auto &nowA: objectList_)
@@ -146,7 +136,10 @@ void Engine::tick(sf::Event event)
 		{
 			if (nowA != nowB)
 			{
-				nowA->Intersection(nowB);
+				if (nowA->Intersection(nowB) == DEAD) //оепедекюрэ!!!
+				{
+					objectState = DEAD;
+				}
 			}
 		}
 
@@ -156,11 +149,15 @@ void Engine::tick(sf::Event event)
 		}
 		else if (objectState == DEAD)
 		{
-			//removeObject(now);
-			continue;
+			listOnDelete.push_back(nowA);
 		}
 		
 		nowA->Draw();
+	}
+
+	for (auto &nowC : listOnDelete)
+	{
+		removeObject(nowC);
 	}
 }
 
@@ -203,7 +200,7 @@ void Engine::removeObject(Object *oldObject)
 	assert(oldObject);
 
 	objectList_.remove(oldObject);
-	free(oldObject);
+	delete oldObject;
 }
 
 

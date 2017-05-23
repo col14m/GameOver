@@ -9,8 +9,8 @@ public:
 	Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 
 	void Control();
-	Object_Condition Logic();
-	Object_Condition Intersection(Object *interation);
+	ObjectCondition Logic();
+	ObjectCondition Intersection(Object *interation);
 	void Draw();
 private:
 
@@ -18,7 +18,9 @@ private:
 
 Background::Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
 	Object(coordinate, velocity, weight, sprite, level)
-{}
+{
+	type_ = Background_t;
+}
 
 Background::Background(sf::Sprite sprite) :
 	Object(Vector(-100, -530), Vector(-200, 0), 1000, sprite, 0)
@@ -32,7 +34,7 @@ void Background::Control()
 
 }
 
-Object_Condition Background::Logic()
+ObjectCondition Background::Logic()
 {
 	if (coordinate_.GetX() <= -((2376 - 764) / 2))
 	{
@@ -42,7 +44,7 @@ Object_Condition Background::Logic()
 	return LIVE;
 }
 
-Object_Condition Background::Intersection(Object *interation)
+ObjectCondition Background::Intersection(Object *interation)
 {
 	assert(interation);
 
