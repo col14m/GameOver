@@ -22,11 +22,15 @@ public:
 	void Physic(double time);
 	void setEngine(Engine *engine);
 
-	virtual void Control(sf::Event);
-	virtual Object_Condition Logic();
 	virtual void Draw();
+	virtual void Control();
+	virtual Object_Condition Logic();
+	virtual Object_Condition Intersection(Object *interation);
 
 	size_t GetLevel();
+	Vector GetCoordinate();
+	double GetWidth();
+
 protected:
 	Engine *engine_;
 	sf::Sprite sprite_;
@@ -83,6 +87,13 @@ void Object::Dump(FILE *file)
 }
 
 
+void Object::Physic(double time)
+{
+	assert(time >= 0);
+
+	coordinate_ = coordinate_ + time * velocity_;
+}
+
 void Object::setEngine(Engine *engine)
 {
 	assert(engine);
@@ -91,23 +102,33 @@ void Object::setEngine(Engine *engine)
 }
 
 
-void Object::Physic(double time)
-{
-	assert(time >= 0);
 
-	coordinate_ = coordinate_ + time * velocity_;
-}
+void Object::Draw() {}
 
-void Object::Control(sf::Event event){}
+void Object::Control() {}
 
 Object_Condition Object::Logic()
 {
 	return LIVE;
 }
 
-void Object::Draw(){}
+Object_Condition Object::Intersection(Object *interation) 
+{
+	return LIVE;
+}
+
 
 size_t Object::GetLevel()
 {
 	return level_;
+}
+
+Vector Object::GetCoordinate()
+{
+	return coordinate_;
+}
+
+double Object::GetWidth()
+{
+	return width_;
 }

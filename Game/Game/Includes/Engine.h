@@ -136,15 +136,23 @@ void Engine::tick(sf::Event event)
 	Object_Condition objectState = LIVE;
 
 	logic();
-	for (auto &now: objectList_)
+	for (auto &nowA: objectList_)
 	{
-		now->Physic(time);
-		now->Control(event);
-		objectState = now->Logic();
+		nowA->Physic(time);
+		nowA->Control();
+		objectState = nowA->Logic();
 		
+		for (auto &nowB: objectList_)
+		{
+			if (nowA != nowB)
+			{
+				nowA->Intersection(nowB);
+			}
+		}
+
 		if (objectState == LIVE)
 		{
-		
+			
 		}
 		else if (objectState == DEAD)
 		{
@@ -152,7 +160,7 @@ void Engine::tick(sf::Event event)
 			continue;
 		}
 		
-		now->Draw();
+		nowA->Draw();
 	}
 }
 

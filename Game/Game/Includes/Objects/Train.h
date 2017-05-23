@@ -9,6 +9,7 @@ public:
 
 	void Control();
 	Object_Condition Logic();
+	Object_Condition Intersection(Object *interation);
 	void Draw();
 private:
 
@@ -39,6 +40,13 @@ Object_Condition Train::Logic()
 		return DEAD;
 	}
 	
+	return LIVE;
+}
+
+Object_Condition Train::Intersection(Object *interation)
+{
+	assert(interation);
+
 	return LIVE;
 }
 

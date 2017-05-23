@@ -8,7 +8,8 @@ public:
 	Conductor(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
 
 	void Control();
-	Object_Condition  Logic();
+	Object_Condition Logic();
+	Object_Condition Intersection(Object *interation);
 	void Draw();
 private:
 
@@ -27,6 +28,13 @@ Object_Condition Conductor::Logic()
 {
 	if (coordinate_.GetX() <= LINE_END_X)
 		return DEAD;
+	return LIVE;
+}
+
+Object_Condition Conductor::Intersection(Object *interation)
+{
+	assert(interation);
+
 	return LIVE;
 }
 
