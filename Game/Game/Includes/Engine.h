@@ -142,6 +142,17 @@ void Engine::tick(sf::Event event)
 		now->Control(event);
 		objectState = now->Logic();
 		
+		/*
+		*/
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+		{
+			int wasE = 0;
+			for (;;)
+			{
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape) && wasE)
+					break;
+			}
+		}
 		if (objectState == LIVE)
 		{
 		
