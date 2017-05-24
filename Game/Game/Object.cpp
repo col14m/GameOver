@@ -13,7 +13,8 @@ Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite spr
 	weight_(weight),
 	width_(0),
 	height_(0),
-	type_(Object_t)
+	type_(Object_t),
+	rate_(0)
 {
 	width_ = sprite_.getTextureRect().width;
 	height_ = sprite_.getTextureRect().height;
@@ -51,7 +52,7 @@ void Object::Dump(FILE *file)
 void Object::Physic(double time)
 {
 	assert(time >= 0);
-
+	velocity_ = rate_ * engine_->getBGVelocity();
 	coordinate_ = coordinate_ + time * velocity_;
 }
 

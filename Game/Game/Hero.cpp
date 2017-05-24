@@ -21,12 +21,12 @@ void Hero::Control()
 				;
 			else if (coordinate_.GetY() == LINE2_BEGIN.GetY())
 			{
-				level_--;
+				level_ = 1;
 				coordinate_.SetY(LINE1_BEGIN.GetY());
 			}
 			else if (coordinate_.GetY() == LINE3_BEGIN.GetY())
 			{
-				level_--;
+				level_ = 2;
 				coordinate_.SetY(LINE2_BEGIN.GetY());
 			}
 		}
@@ -40,12 +40,12 @@ void Hero::Control()
 				;
 			else if (coordinate_.GetY() == LINE2_BEGIN.GetY())
 			{
-				level_++;
+				level_ = 3;
 				coordinate_.SetY(LINE3_BEGIN.GetY());
 			}
 			else if (coordinate_.GetY() == LINE1_BEGIN.GetY())
 			{
-				level_++;
+				level_ = 2;
 				coordinate_.SetY(LINE2_BEGIN.GetY());
 			}
 		}

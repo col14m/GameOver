@@ -45,7 +45,7 @@ protected:
 	size_t weight_;
 	double width_;
 	double height_;
-
+	int rate_;
 	ObjectType type_;
 };
 

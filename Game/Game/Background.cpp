@@ -8,6 +8,7 @@ Background::Background(Vector coordinate, Vector velocity, size_t weight, sf::Sp
 	Object(coordinate, velocity, weight, sprite, level)
 {
 	type_ = Background_t;
+	rate_ = 1;
 }
 
 Background::Background(sf::Sprite sprite) :

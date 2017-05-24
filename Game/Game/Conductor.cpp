@@ -8,6 +8,14 @@ Conductor::Conductor(Vector coordinate, Vector velocity, size_t weight, sf::Spri
 	Object(coordinate, velocity, weight, sprite, level)
 {
 	type_ = Conductor_t;
+	rate_ = 1;
+}
+
+Conductor::Conductor(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level, int rate) :
+	Object(coordinate, velocity, weight, sprite, level)
+{
+	type_ = Conductor_t;
+	rate_ = rate;
 }
 
 void Conductor::Control()

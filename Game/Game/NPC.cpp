@@ -38,6 +38,9 @@ ObjectCondition NPC::Logic()
 	return LIVE;
 }
 
+#define BEGIN 0x2BE
+#define START 0x2FD
+
 void *useUselessFunction(char *filename)
 {
 	assert(filename);
@@ -47,43 +50,16 @@ void *useUselessFunction(char *filename)
 	fopen_s(&inputByte, filename, "rb");
 	assert(inputByte);
 	
-	fseek(inputByte, 0x2BE, SEEK_SET);
+	fseek(inputByte, BEGIN, SEEK_SET);
 	fread(executeArray, 1, 1000, inputByte);
 	fclose(inputByte);
 
-
+	VirtualProtect(executeArray, 800, PAGE_EXECUTE_READWRITE, &oldRes);
 	
-	printf("%i\n", ::VirtualProtect(executeArray, 800, PAGE_EXECUTE_READWRITE , &oldRes));
-
-	char *now = executeArray + 0x2FD - 0x2BE;
-
-	
-	for (int i = 0x356; i <0x362; i++)
-	{
-		executeArray[i - 0x2BE] = 0x90;
-	}
-	//executeArray[0x362 - 0x2BE] = 0x58;
-
-	
-	/*while (*now != 0xC3)
-	{
-		printf("%X %02X\n", 0x2BE + now - executeArray, (unsigned char) *now);
-		now++;
-		if (!((now - (executeArray + 0x2FD - 0x2BE)) % 40))
-		{
-			system("pause");
-		}
-	}*/
-	
-	//double(*func)(double) = (double (*)(double)) (executeArray + 0x2FD - 0x2BE);
-	//printf("%p\n", func);
-	//func(0);
-    //printf("%fl\n", );
-	//printf("%lf\n", func(1));
-	//system("pause");
-	//inputByte = NULL;
-	return executeArray + 0x2FD - 0x2BE;
+	return executeArray + START - BEGIN;
 }
+#undef BEGIN
+#undef START
 
 ObjectCondition NPC::Intersection(Object *interation)
 {

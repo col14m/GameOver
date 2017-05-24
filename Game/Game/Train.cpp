@@ -6,8 +6,15 @@ Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprit
 	Object(coordinate, velocity, weight, sprite, level)
 {
 	type_ = Train_t;
+	rate_ = 2;
 }
 
+Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level, int rate) :
+	Object(coordinate, velocity, weight, sprite, level)
+{
+	type_ = Train_t;
+	rate_ = rate;
+}
 
 void Train::Control()
 {

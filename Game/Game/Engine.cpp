@@ -49,6 +49,7 @@ Engine::Engine()
 	engineWindow_ = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
 	assert(engineWindow_);
 	BGVelocity_ = BG_VELOCITY;
+	time_ = 0;
 
 	loadTexture();
 	engineWindow_->setFramerateLimit(100);
@@ -89,14 +90,14 @@ void Engine::tick()
 	ObjectCondition objectState = LIVE;
 	size_t ObjCounter = 0;
 	std::list<Object *> listOnDelete;
-
-	logic();
+	BGVelocity_ = 1.0001 * BGVelocity_;
+	logic(time);
 	for (auto &nowA : objectList_)
 	{
 		nowA->Physic(time);
 		nowA->Control();
 		objectState = nowA->Logic();
-		nowA->SetVelocity(1.0001 * nowA->GetVelocity());
+		//nowA->SetVelocity(1.0001 * nowA->GetVelocity());
 
 		for (auto &nowB : objectList_)
 		{
@@ -128,9 +129,51 @@ void Engine::tick()
 	}
 }
 
-void Engine::logic()
+void Engine::logic(double time)
 {
-	//SET_ON_LINE(Train, 2, 2)
+	time_ += time;
+	//printf("%lg\n", ((double)WIN_L / BGVelocity_.GetX() + 1));
+	if (time_ > (-(double)WIN_L / BGVelocity_.GetX()/8 +1))
+	{
+		//printf("+");
+		time_ = 0;
+		switch (rand() % 8)
+		{
+		case 0:
+			SET_ON_LINE(Train, 3, 2);
+			SET_ON_LINE_OFFSET(Train, 2, 2, 250);
+			SET_ON_LINE_OFFSET(Train, 3, 2, 600);
+			time_ -= 600 / BGVelocity_.GetX() / 1.7 + 1;
+			break;
+		case 1:
+			SET_ON_LINE(Train, 3, 2);
+			break;
+		case 2:
+			SET_ON_LINE(Train, 2, 2);
+			break;
+		case 3:
+			SET_ON_LINE(Train, 3, 2);
+			SET_ON_LINE(Train, 2, 2);
+			break;
+		case 4:
+			SET_ON_LINE(Conductor, 1, 1);
+			break;
+		case 5:
+			SET_ON_LINE(Conductor, 1, 1);
+			SET_ON_LINE(Train, 3, 2);
+			break;
+		case 6:
+			SET_ON_LINE(Conductor, 1, 1);
+			SET_ON_LINE(Train, 2, 2);
+			break;
+		case 7:
+			SET_ON_LINE(Train, 3, 1);
+			break;
+
+		default:
+			break;
+		}
+	}
 	//addObject(new Train(LINE2_BEGIN, 2 * BGVelocity_, 100, sf::Sprite(*(texturesMap["Train"])), 2));
 	//addObject(new Train(LINE2_BEGIN, 2 * BG_VELOCITY, 100, sf::Sprite(*(texturesMap["Train"])), 2));
 }
@@ -202,4 +245,8 @@ sf::RenderWindow *Engine::getEngineWindow()
 	return engineWindow_;
 }
 
+Vector Engine::getBGVelocity()
+{
+	return BGVelocity_;
+}
 

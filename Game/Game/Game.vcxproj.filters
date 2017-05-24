@@ -33,9 +33,6 @@
     <ClInclude Include="Includes\Vector\Vector.h">
       <Filter>Includes\Vector</Filter>
     </ClInclude>
-    <ClInclude Include="Includes\Engine.h">
-      <Filter>Includes</Filter>
-    </ClInclude>
     <ClInclude Include="Includes\Objects\Object.h">
       <Filter>Includes\Objects</Filter>
     </ClInclude>
@@ -59,6 +56,9 @@
     </ClInclude>
     <ClInclude Include="Includes\Objects\NPC.h">
       <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Engine.h">
+      <Filter>Resourses</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
