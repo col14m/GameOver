@@ -123,7 +123,7 @@
     <ClInclude Include="Includes\Objects\Barrier.h" />
     <ClInclude Include="Includes\Objects\Conductor.h" />
     <ClInclude Include="Includes\Objects\Hero.h" />
-    <ClInclude Include="Includes\Objects\NPS.h" />
+    <ClInclude Include="Includes\Objects\NPC.h" />
     <ClInclude Include="Includes\Objects\Object.h" />
     <ClInclude Include="Includes\Objects\Obstruction.h" />
     <ClInclude Include="Includes\Objects\PowerUP.h" />
@@ -136,6 +136,7 @@
     <ClCompile Include="Conductor.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="NPC.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Tests\test_1.cpp" />
     <ClCompile Include="Tests\Test_Object.cpp" />

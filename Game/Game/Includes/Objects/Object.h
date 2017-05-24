@@ -18,9 +18,10 @@ public:
 	void Dump();
 	void Dump(FILE *file);
 
-	void Physic(double time);
+	
 	void setEngine(Engine *engine);
 
+	virtual void Physic(double time);
 	virtual void Draw();
 	virtual void Control();
 	virtual ObjectCondition Logic();

@@ -42,9 +42,6 @@
     <ClInclude Include="Includes\Objects\Background.h">
       <Filter>Includes\Objects</Filter>
     </ClInclude>
-    <ClInclude Include="Includes\Objects\NPS.h">
-      <Filter>Includes\Objects</Filter>
-    </ClInclude>
     <ClInclude Include="Includes\Objects\PowerUP.h">
       <Filter>Includes\Objects</Filter>
     </ClInclude>
@@ -58,6 +55,9 @@
       <Filter>Includes\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Includes\Objects\Hero.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Objects\NPC.h">
       <Filter>Includes\Objects</Filter>
     </ClInclude>
   </ItemGroup>
@@ -93,6 +93,9 @@
       <Filter>Codes</Filter>
     </ClCompile>
     <ClCompile Include="Vector.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
       <Filter>Codes</Filter>
     </ClCompile>
   </ItemGroup>

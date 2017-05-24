@@ -1,3 +1,4 @@
+#include "SFML\Audio.hpp"
 #include "Engine.h"
 #include "Objects\Conductor.h"
 #include "Objects\Background.h"
@@ -32,6 +33,12 @@ int loadTexture()
 
 		texturesMap["Hero"] = hero;
 	}
+	{
+		sf::Texture *NPC = new sf::Texture;
+		NPC->loadFromFile("Resourses/Losyash.png");
+
+		texturesMap["NPC"] = NPC;
+	}
 
 	return 0;
 }
@@ -55,6 +62,10 @@ Engine::~Engine()
 
 void Engine::run()
 {
+	sf::Music music;
+	music.openFromFile("Resourses/HTF.wav");
+	music.setLoop(true);
+	music.play();
 
 	while (engineWindow_->isOpen())
 	{
@@ -119,7 +130,7 @@ void Engine::tick()
 
 void Engine::logic()
 {
-	SET_ON_LINE(Train, 2)
+	//SET_ON_LINE(Train, 2, 2)
 	//addObject(new Train(LINE2_BEGIN, 2 * BGVelocity_, 100, sf::Sprite(*(texturesMap["Train"])), 2));
 	//addObject(new Train(LINE2_BEGIN, 2 * BG_VELOCITY, 100, sf::Sprite(*(texturesMap["Train"])), 2));
 }

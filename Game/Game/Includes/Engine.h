@@ -27,8 +27,8 @@
 
 
 
-#define SET_ON_LINE(Name, line) \
-	addObject(new Name(LINE##line##_BEGIN, 2 * BGVelocity_, 100, sf::Sprite(*(texturesMap[#Name])), line));
+#define SET_ON_LINE(Name, line, k) \
+	addObject(new Name(LINE##line##_BEGIN, k * BGVelocity_, 100, sf::Sprite(*(texturesMap[#Name])), line));
 
 class Engine
 {
