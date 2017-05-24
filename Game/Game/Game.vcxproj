@@ -131,10 +131,17 @@
     <ClInclude Include="Includes\Vector\Vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Background.cpp" />
     <ClCompile Include="Code\Main.cpp" />
+    <ClCompile Include="Conductor.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="Object.cpp" />
     <ClCompile Include="Tests\test_1.cpp" />
     <ClCompile Include="Tests\Test_Object.cpp" />
     <ClCompile Include="Tests\Test_Vector.cpp" />
+    <ClCompile Include="Train.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resourses\BackGround_long.png" />

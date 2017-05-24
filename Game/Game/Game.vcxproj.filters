@@ -74,6 +74,27 @@
     <ClCompile Include="Code\Main.cpp">
       <Filter>Codes</Filter>
     </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Train.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Conductor.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resourses\BackGround_long.png">
