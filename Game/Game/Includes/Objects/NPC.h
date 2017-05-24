@@ -1,6 +1,6 @@
 #pragma once
 
-//#include "Objects\Object.h"
+#include "Objects\Object.h"
 
 class NPC : public Object
 {
@@ -13,6 +13,7 @@ public:
 	void Physic(double time);
 	ObjectCondition Logic();
 	ObjectCondition Intersection(Object *interation);
+
 	double time_;
 private:
 

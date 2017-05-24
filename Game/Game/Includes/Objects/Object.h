@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Vector//Vector.h"
-#include "SFML//Main.hpp"
-#include "SFML//Graphics.hpp"
+#include "Vector\Vector.h"
+#include "SFML\Main.hpp"
+#include "SFML\Graphics.hpp"
 
 class Engine;
 

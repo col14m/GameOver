@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <assert.h>
 
-#include <list>
 #include <map>
+#include <list>
 
 #include "Objects\Object.h"
 
@@ -12,7 +12,6 @@
 #define LINE1_BEGIN Vector(LINE_BEGIN_X, 201) 
 #define LINE2_BEGIN Vector(LINE_BEGIN_X, 330)
 #define LINE3_BEGIN Vector(LINE_BEGIN_X, 440)
-//#define LINE4_BEGIN Vector(1100, 488) // нафиг 4 линию, она плохо смотрится
 
 #define LINE_END_X -400
 #define LINE1_END Vector(LINE_END_X, 201)
@@ -24,11 +23,8 @@
 #define WIN_H 530
 #define WIN_L 1060
 
-
-
-
-#define SET_ON_LINE(Name, line, k) \
-	addObject(new Name(LINE##line##_BEGIN, k * BGVelocity_, 100, sf::Sprite(*(texturesMap[#Name])), line));
+#define SET_ON_LINE(name, line, k) \
+	addObject(new name(LINE##line##_BEGIN, k * BGVelocity_, 100, sf::Sprite(*(texturesMap[#name])), line));
 
 class Engine
 {

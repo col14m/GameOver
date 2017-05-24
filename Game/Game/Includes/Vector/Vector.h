@@ -30,4 +30,3 @@ private:
 
 Vector operator +(const Vector &first, const Vector &second);
 Vector operator *(double number, const Vector &vector);
-
