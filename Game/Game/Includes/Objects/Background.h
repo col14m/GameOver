@@ -7,9 +7,10 @@ class Background : public Object
 public:
 	Background(sf::Sprite sprite);
 	Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
-	~Background();
+
 	void Control();
 	Object_Condition Logic();
+	Object_Condition Intersection(Object *interation);
 	void Draw();
 private:
 
@@ -33,8 +34,18 @@ void Background::Control()
 
 Object_Condition Background::Logic()
 {
-	if ( coordinate_.GetX() <= -((2376 - 764) / 2) )
+	if (coordinate_.GetX() <= -((2376 - 764) / 2))
+	{
 		coordinate_ = coordinate_ % ((2376 - 764) / 2);
+	}
+		
+	return LIVE;
+}
+
+Object_Condition Background::Intersection(Object *interation)
+{
+	assert(interation);
+
 	return LIVE;
 }
 

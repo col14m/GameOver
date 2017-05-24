@@ -136,26 +136,23 @@ void Engine::tick(sf::Event event)
 	Object_Condition objectState = LIVE;
 
 	logic();
-	for (auto &now: objectList_)
+	for (auto &nowA: objectList_)
 	{
-		now->Physic(time);
-		now->Control(event);
-		objectState = now->Logic();
+		nowA->Physic(time);
+		nowA->Control();
+		objectState = nowA->Logic();
 		
-		/*
-		*/
-		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+		for (auto &nowB: objectList_)
 		{
-			int wasE = 0;
-			for (;;)
+			if (nowA != nowB)
 			{
-				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape) && wasE)
-					break;
+				nowA->Intersection(nowB);
 			}
 		}
+
 		if (objectState == LIVE)
 		{
-		
+			
 		}
 		else if (objectState == DEAD)
 		{
@@ -163,7 +160,7 @@ void Engine::tick(sf::Event event)
 			continue;
 		}
 		
-		now->Draw();
+		nowA->Draw();
 	}
 }
 

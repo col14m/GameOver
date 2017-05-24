@@ -8,10 +8,13 @@ class Hero : public Object
 {
 public:
 	Hero(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level);
-	void Control( sf::Event event);
-	Object_Condition Logic();
+	
+	void Control();
 	//void Physic();
 	void Draw();
+
+	Object_Condition Logic();
+	Object_Condition Intersection(Object *interation);
 private:
 
 };
@@ -20,7 +23,7 @@ Hero::Hero(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite,
 	Object(coordinate, velocity, weight, sprite, level)
 {}
 
-void Hero::Control(sf::Event event)
+void Hero::Control()
 {
 	//static int PrevPress;
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
@@ -52,37 +55,31 @@ void Hero::Control(sf::Event event)
 	else
 		PrevPress = 0;
 
-	
-	/*
-	if (event.type == sf::Event::Closed)
-		engine_->getEngineWindow()->close();
-	if (event.type == sf::Event::KeyPressed)
-	{
-		printf("EFUHEIO");
-		if (event.key.code == sf::Keyboard::Up)
-		{
-			if (coordinate_.GetY() == LINE1_BEGIN.GetY())
-				;
-			else if (coordinate_.GetY() == LINE2_BEGIN.GetY())
-				coordinate_.SetY(LINE1_BEGIN.GetY());
-			else if (coordinate_.GetY() == LINE3_BEGIN.GetY())
-				coordinate_.SetY(LINE2_BEGIN.GetY());
-		}
-		else if (event.key.code == sf::Keyboard::Down)
-		{
-			if (coordinate_.GetY() == LINE3_BEGIN.GetY())
-				;
-			else if (coordinate_.GetY() == LINE2_BEGIN.GetY())
-				coordinate_.SetY(LINE3_BEGIN.GetY());
-			else if (coordinate_.GetY() == LINE1_BEGIN.GetY())
-				coordinate_.SetY(LINE2_BEGIN.GetY());
-		}
-	
-	*/
 }
 
 Object_Condition Hero::Logic()
 {
+	return LIVE;
+}
+
+Object_Condition Hero::Intersection(Object *interation)
+{
+	assert(interation);
+
+	if (fabs(coordinate_.GetY() - interation->GetCoordinate().GetY()) > 10)
+	{
+		return LIVE;
+	}
+
+	double distanceX = interation->GetCoordinate().GetX() - coordinate_.GetX() - width_;
+	
+	if ((distanceX < 0) && (distanceX > (-1)*(interation->GetWidth() + width_)))
+	{
+
+		printf("%lf +\n", distanceX);
+	}
+
+
 	return LIVE;
 }
 
