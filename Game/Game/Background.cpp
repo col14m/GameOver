@@ -7,6 +7,8 @@
 Background::Background(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
 	Object(coordinate, velocity, weight, sprite, level)
 {
+	sprite_.setOrigin(sf::Vector2f((float)0, (float)height_));
+
 	type_ = Background_t;
 	rate_ = 1;
 }

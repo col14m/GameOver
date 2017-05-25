@@ -18,8 +18,6 @@ Object::Object(Vector coordinate, Vector velocity, size_t weight, sf::Sprite spr
 {
 	width_ = sprite_.getTextureRect().width;
 	height_ = sprite_.getTextureRect().height;
-
-	sprite_.setOrigin(sf::Vector2f((float)0, (float)height_));
 }
 
 void Object::Dump()
@@ -42,8 +40,8 @@ void Object::Dump(FILE *file)
 	fprintf(file, "\tengine     : 0x%p;\n", engine_);
 	fprintf(file, "\tsprite     : 0x%p;\n", &sprite_);
 	fprintf(file, "\tlevel      : %zu;\n", level_);
-	fprintf(file, "\tcoordinate : "); coordinate_.Dump();
-	fprintf(file, "\tvelocity   : "); velocity_.Dump();
+	fprintf(file, "\tcoordinate : "); coordinate_.Dump(file);
+	fprintf(file, "\tvelocity   : "); velocity_.Dump(file);
 	fprintf(file, "\tweight     : %zu\n", weight_);
 	fprintf(file, "}\n");
 }

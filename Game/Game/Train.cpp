@@ -7,6 +7,8 @@ Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprit
 {
 	type_ = Train_t;
 	rate_ = 2;
+
+	sprite_.setOrigin(sf::Vector2f((float)0, (float)height_));
 }
 
 Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level, int rate) :
@@ -14,6 +16,8 @@ Train::Train(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprit
 {
 	type_ = Train_t;
 	rate_ = rate;
+
+	sprite_.setOrigin(sf::Vector2f((float)0, (float)height_));
 }
 
 void Train::Control()

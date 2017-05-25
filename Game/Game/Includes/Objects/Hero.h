@@ -17,5 +17,5 @@ public:
 	ObjectCondition Intersection(Object *interation);
 
 private:
-
+	sf::IntRect* Animation_;
 };

@@ -1,9 +1,13 @@
 #include "SFML\Audio.hpp"
+
 #include "Engine.h"
+
 #include "Objects\Conductor.h"
 #include "Objects\Background.h"
 #include "Objects\Train.h"
 #include "Objects\Hero.h"
+
+#include <time.h>
 
 std::map<char *, sf::Texture *> texturesMap;
 
@@ -46,6 +50,8 @@ int loadTexture()
 
 Engine::Engine()
 {
+	srand(time(NULL));
+
 	engineWindow_ = new sf::RenderWindow(sf::VideoMode(WIN_L, WIN_H), "Runner-Hyaner");
 	assert(engineWindow_);
 	BGVelocity_ = BG_VELOCITY;
@@ -64,6 +70,7 @@ Engine::~Engine()
 void Engine::run()
 {
 	sf::Music music;
+	
 	music.openFromFile("Resourses/HTF.wav");
 	music.setLoop(true);
 	music.play();
@@ -88,9 +95,13 @@ void Engine::tick()
 {
 	double time = (double)clock_.restart().asSeconds();
 	ObjectCondition objectState = LIVE;
+	
 	size_t ObjCounter = 0;
+	
 	std::list<Object *> listOnDelete;
+	
 	BGVelocity_ = 1.0001 * BGVelocity_;
+	
 	logic(time);
 	for (auto &nowA : objectList_)
 	{
@@ -133,10 +144,11 @@ void Engine::logic(double time)
 {
 	time_ += time;
 	//printf("%lg\n", ((double)WIN_L / BGVelocity_.GetX() + 1));
-	if (time_ > (-(double)WIN_L / BGVelocity_.GetX()/8 +1))
+	if (time_ > (-(double)WIN_L / BGVelocity_.GetX()/2 +1))
 	{
-		//printf("+");
+		printf("+");
 		time_ = 0;
+		
 		switch (rand() % 8)
 		{
 		case 0:
@@ -173,6 +185,14 @@ void Engine::logic(double time)
 		default:
 			break;
 		}
+		FILE *file = NULL;
+		fopen_s(&file, "test1.txt", "a");
+		assert(file);
+
+		Dump(file);
+
+		fclose(file);
+		//system("pause");
 	}
 	//addObject(new Train(LINE2_BEGIN, 2 * BGVelocity_, 100, sf::Sprite(*(texturesMap["Train"])), 2));
 	//addObject(new Train(LINE2_BEGIN, 2 * BG_VELOCITY, 100, sf::Sprite(*(texturesMap["Train"])), 2));
@@ -234,7 +254,7 @@ void Engine::Dump(FILE *file)
 	fprintf(file, "Engine [0x%p] {\n", this);
 	for (auto &now : objectList_)
 	{
-		now->Dump();
+		now->Dump(file);
 	}
 	fprintf(file, "}\n");
 }

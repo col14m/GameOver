@@ -7,6 +7,8 @@
 Conductor::Conductor(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
 	Object(coordinate, velocity, weight, sprite, level)
 {
+	sprite_.setOrigin(sf::Vector2f((float)0, (float)height_));
+
 	type_ = Conductor_t;
 	rate_ = 1;
 }
@@ -14,6 +16,8 @@ Conductor::Conductor(Vector coordinate, Vector velocity, size_t weight, sf::Spri
 Conductor::Conductor(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level, int rate) :
 	Object(coordinate, velocity, weight, sprite, level)
 {
+	sprite_.setOrigin(sf::Vector2f((float)0, (float)height_));
+
 	type_ = Conductor_t;
 	rate_ = rate;
 }

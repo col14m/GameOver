@@ -8,6 +8,20 @@ int PrevPress = 0;
 Hero::Hero(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, size_t level) :
 	Object(coordinate, velocity, weight, sprite, level)
 {
+	Animation_ = new sf::IntRect[6];
+	for (int i = 0; i < 6; i++)
+	{
+		Animation_[0].height = 110;
+		Animation_[0].width = 94;
+	}
+
+	Animation_[0].left = 380;
+	Animation_[0].top = 340.5 ;
+	width_ = 94;
+	height_ = 110;
+
+	sprite_.setOrigin(sf::Vector2f((float)0, (float)height_));
+
 	type_ = Hero_t;
 }
 
@@ -113,6 +127,13 @@ ObjectCondition Hero::Intersection(Object *interation)
 
 void Hero::Draw()
 {
+	width_ = Animation_[0].width;
+	height_ = Animation_[0].height;
+
+	sprite_.setTextureRect(Animation_[0]);
+
+	//prite_.setTextureRect(sf::IntRect(380, 340.5, 94, 110));
+
 	sprite_.setPosition((float)coordinate_.GetX(), (float)coordinate_.GetY());
 	engine_->getEngineWindow()->draw(sprite_);
 }

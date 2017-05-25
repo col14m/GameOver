@@ -15,13 +15,15 @@ NPC::NPC(Vector coordinate, Vector velocity, size_t weight, sf::Sprite sprite, s
 	Object(coordinate, velocity, weight, sprite, level),
 	time_(0)
 {
+	sprite_.setOrigin(sf::Vector2f((float)0, (float)height_));
+
 	type_ = Background_t;
 }
 
 void NPC::Control()
 {
 
-}
+} 
 
 void NPC::Physic(double time)
 {

@@ -1,0 +1,6592 @@
+Engine [0x000000000029FD88] {
+Object [0x0000000005BCDCD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDCE0;
+	level      : 0;
+	coordinate : Vector {-431.534; 530.000};
+	velocity   : Vector {-202.962; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCFAD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCFAE0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-405.964; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCDA60] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDA70;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCD8D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCD8E0;
+	level      : 4;
+	coordinate : Vector {478.381; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000029FD88] {
+Object [0x0000000005BCDCD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDCE0;
+	level      : 0;
+	coordinate : Vector {-768.493; 530.000};
+	velocity   : Vector {-206.689; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF7D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF7E0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-413.420; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF950] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF960;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-413.420; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCFAE0;
+	level      : 3;
+	coordinate : Vector {431.081; 440.000};
+	velocity   : Vector {-413.378; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCDA60] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDA70;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCD8D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCD8E0;
+	level      : 4;
+	coordinate : Vector {521.884; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000029FD88] {
+Object [0x0000000005BCDCD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDCE0;
+	level      : 0;
+	coordinate : Vector {-302.299; 530.000};
+	velocity   : Vector {-210.464; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF650] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF660;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-210.485; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF4E0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-420.970; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF7D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF7E0;
+	level      : 2;
+	coordinate : Vector {424.172; 330.000};
+	velocity   : Vector {-420.928; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF950] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF960;
+	level      : 3;
+	coordinate : Vector {424.172; 440.000};
+	velocity   : Vector {-420.928; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCFAE0;
+	level      : 3;
+	coordinate : Vector {-249.748; 440.000};
+	velocity   : Vector {-420.928; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCDA60] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDA70;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCD8D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCD8E0;
+	level      : 4;
+	coordinate : Vector {558.458; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000029FD88] {
+Object [0x0000000005BCDCD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDCE0;
+	level      : 0;
+	coordinate : Vector {-646.773; 530.000};
+	velocity   : Vector {-214.287; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCFAD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCFAE0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-214.308; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF650] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF660;
+	level      : 1;
+	coordinate : Vector {760.526; 201.000};
+	velocity   : Vector {-214.287; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF4E0;
+	level      : 2;
+	coordinate : Vector {416.052; 330.000};
+	velocity   : Vector {-428.573; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF7D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF7E0;
+	level      : 2;
+	coordinate : Vector {-264.777; 330.000};
+	velocity   : Vector {-428.573; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF950] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF960;
+	level      : 3;
+	coordinate : Vector {-264.777; 440.000};
+	velocity   : Vector {-428.573; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCDA60] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDA70;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCD8D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCD8E0;
+	level      : 4;
+	coordinate : Vector {587.804; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000029FD88] {
+Object [0x0000000005BCDCD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDCE0;
+	level      : 0;
+	coordinate : Vector {-188.588; 530.000};
+	velocity   : Vector {-218.157; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCFAD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCFAE0;
+	level      : 1;
+	coordinate : Vector {756.646; 201.000};
+	velocity   : Vector {-218.157; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF650] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF660;
+	level      : 1;
+	coordinate : Vector {412.172; 201.000};
+	velocity   : Vector {-218.157; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF4E0;
+	level      : 2;
+	coordinate : Vector {-280.656; 330.000};
+	velocity   : Vector {-436.313; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF950] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF960;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-436.357; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCD8D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCD8E0;
+	level      : 4;
+	coordinate : Vector {609.253; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000029FD88] {
+Object [0x0000000005BCDCD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDCE0;
+	level      : 0;
+	coordinate : Vector {-540.125; 530.000};
+	velocity   : Vector {-222.052; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF4D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF4E0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-222.074; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCFAE0;
+	level      : 1;
+	coordinate : Vector {405.109; 201.000};
+	velocity   : Vector {-222.052; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF650] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF660;
+	level      : 1;
+	coordinate : Vector {60.635; 201.000};
+	velocity   : Vector {-222.052; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF950] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF960;
+	level      : 3;
+	coordinate : Vector {401.926; 440.000};
+	velocity   : Vector {-444.104; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCD8D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCD8E0;
+	level      : 4;
+	coordinate : Vector {622.183; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000029FD88] {
+Object [0x0000000005BCDCD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDCE0;
+	level      : 0;
+	coordinate : Vector {-89.759; 530.000};
+	velocity   : Vector {-225.995; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF7D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF7E0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-226.017; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF4E0;
+	level      : 1;
+	coordinate : Vector {748.554; 201.000};
+	velocity   : Vector {-225.995; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCFAE0;
+	level      : 1;
+	coordinate : Vector {48.663; 201.000};
+	velocity   : Vector {-225.995; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF650] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF660;
+	level      : 1;
+	coordinate : Vector {-295.811; 201.000};
+	velocity   : Vector {-225.995; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF350] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF360;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-452.034; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF950] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF960;
+	level      : 3;
+	coordinate : Vector {-310.966; 440.000};
+	velocity   : Vector {-451.989; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCD8D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCD8E0;
+	level      : 4;
+	coordinate : Vector {631.460; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000029FD88] {
+Object [0x0000000005BCDCD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCDCE0;
+	level      : 0;
+	coordinate : Vector {-449.518; 530.000};
+	velocity   : Vector {-229.938; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF650] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF660;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-229.961; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF7D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF7E0;
+	level      : 1;
+	coordinate : Vector {745.241; 201.000};
+	velocity   : Vector {-229.938; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF4E0;
+	level      : 1;
+	coordinate : Vector {388.795; 201.000};
+	velocity   : Vector {-229.938; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAD0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCFAE0;
+	level      : 1;
+	coordinate : Vector {-311.096; 201.000};
+	velocity   : Vector {-229.938; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF950] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF960;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-459.922; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF350] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCF360;
+	level      : 2;
+	coordinate : Vector {385.483; 330.000};
+	velocity   : Vector {-459.876; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCD8D0] {
+	engine     : 0x000000000029FD88;
+	sprite     : 0x0000000005BCD8E0;
+	level      : 4;
+	coordinate : Vector {634.636; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-430.981; 530.000};
+	velocity   : Vector {-203.022; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6DA60] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DA70;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-406.086; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {476.598; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-767.244; 530.000};
+	velocity   : Vector {-206.751; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6F7D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F7E0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-413.544; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6DA60] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DA70;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6F950] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F960;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-413.544; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 3;
+	coordinate : Vector {432.475; 440.000};
+	velocity   : Vector {-413.502; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {517.632; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-300.967; 530.000};
+	velocity   : Vector {-210.527; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6F650] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F660;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-210.548; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F4D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F4E0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-421.096; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F7D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F7E0;
+	level      : 2;
+	coordinate : Vector {424.841; 330.000};
+	velocity   : Vector {-421.054; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6DA60] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DA70;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6F950] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F960;
+	level      : 3;
+	coordinate : Vector {424.841; 440.000};
+	velocity   : Vector {-421.054; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 3;
+	coordinate : Vector {-247.684; 440.000};
+	velocity   : Vector {-421.054; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {553.018; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-645.780; 530.000};
+	velocity   : Vector {-214.351; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-214.372; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F650] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F660;
+	level      : 1;
+	coordinate : Vector {760.187; 201.000};
+	velocity   : Vector {-214.351; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F4D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F4E0;
+	level      : 2;
+	coordinate : Vector {415.373; 330.000};
+	velocity   : Vector {-428.702; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F7D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F7E0;
+	level      : 2;
+	coordinate : Vector {-264.785; 330.000};
+	velocity   : Vector {-428.702; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F950] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F960;
+	level      : 3;
+	coordinate : Vector {-264.785; 440.000};
+	velocity   : Vector {-428.702; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {583.290; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-187.655; 530.000};
+	velocity   : Vector {-218.222; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 1;
+	coordinate : Vector {756.336; 201.000};
+	velocity   : Vector {-218.222; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F650] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F660;
+	level      : 1;
+	coordinate : Vector {411.522; 201.000};
+	velocity   : Vector {-218.222; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F4D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F4E0;
+	level      : 2;
+	coordinate : Vector {-281.955; 330.000};
+	velocity   : Vector {-436.444; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F950] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F960;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-436.488; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {605.580; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-539.920; 530.000};
+	velocity   : Vector {-222.097; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6F4D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F4E0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-222.119; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 1;
+	coordinate : Vector {404.071; 201.000};
+	velocity   : Vector {-222.097; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F650] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F660;
+	level      : 1;
+	coordinate : Vector {59.257; 201.000};
+	velocity   : Vector {-222.097; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F950] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F960;
+	level      : 3;
+	coordinate : Vector {400.470; 440.000};
+	velocity   : Vector {-444.193; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {620.174; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-90.557; 530.000};
+	velocity   : Vector {-226.062; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6F7D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F7E0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-226.085; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F4D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F4E0;
+	level      : 1;
+	coordinate : Vector {747.570; 201.000};
+	velocity   : Vector {-226.062; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 1;
+	coordinate : Vector {46.641; 201.000};
+	velocity   : Vector {-226.062; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F650] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F660;
+	level      : 1;
+	coordinate : Vector {-298.173; 201.000};
+	velocity   : Vector {-226.062; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F350] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F360;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-452.170; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F950] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F960;
+	level      : 3;
+	coordinate : Vector {-314.390; 440.000};
+	velocity   : Vector {-452.125; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {631.368; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-450.916; 530.000};
+	velocity   : Vector {-230.053; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6F650] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F660;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-230.076; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F7D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F7E0;
+	level      : 1;
+	coordinate : Vector {744.641; 201.000};
+	velocity   : Vector {-230.053; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F4D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F4E0;
+	level      : 1;
+	coordinate : Vector {387.211; 201.000};
+	velocity   : Vector {-230.053; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 1;
+	coordinate : Vector {-313.718; 201.000};
+	velocity   : Vector {-230.053; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F950] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F960;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-460.152; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F350] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F360;
+	level      : 2;
+	coordinate : Vector {384.282; 330.000};
+	velocity   : Vector {-460.106; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {635.394; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000015FD38] {
+Object [0x0000000005B6DCD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6DCE0;
+	level      : 0;
+	coordinate : Vector {-8.490; 530.000};
+	velocity   : Vector {-234.067; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B6F650] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F660;
+	level      : 1;
+	coordinate : Vector {741.042; 201.000};
+	velocity   : Vector {-234.067; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F7D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F7E0;
+	level      : 1;
+	coordinate : Vector {380.684; 201.000};
+	velocity   : Vector {-234.067; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F4D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F4E0;
+	level      : 1;
+	coordinate : Vector {23.254; 201.000};
+	velocity   : Vector {-234.067; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6FAD0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6FAE0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-468.182; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F950] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F960;
+	level      : 2;
+	coordinate : Vector {377.085; 330.000};
+	velocity   : Vector {-468.135; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6F350] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6F360;
+	level      : 2;
+	coordinate : Vector {-343.633; 330.000};
+	velocity   : Vector {-468.135; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B6D8D0] {
+	engine     : 0x000000000015FD38;
+	sprite     : 0x0000000005B6D8E0;
+	level      : 4;
+	coordinate : Vector {634.330; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EF858] {
+Object [0x0000000005D1DE30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1DE40;
+	level      : 0;
+	coordinate : Vector {-431.531; 530.000};
+	velocity   : Vector {-202.982; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D1FC30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-203.002; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FAB0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-406.004; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D299D0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D299E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D29840] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D29850;
+	level      : 4;
+	coordinate : Vector {478.305; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EF858] {
+Object [0x0000000005D1DE30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1DE40;
+	level      : 0;
+	coordinate : Vector {-769.343; 530.000};
+	velocity   : Vector {-206.730; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D1F930] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F940;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-206.751; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FC30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FC40;
+	level      : 1;
+	coordinate : Vector {767.188; 201.000};
+	velocity   : Vector {-206.730; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FAB0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FAC0;
+	level      : 2;
+	coordinate : Vector {429.376; 330.000};
+	velocity   : Vector {-413.461; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F7B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-413.502; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D299D0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D299E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D29840] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D29850;
+	level      : 4;
+	coordinate : Vector {524.141; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EF858] {
+Object [0x0000000005D1DE30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1DE40;
+	level      : 0;
+	coordinate : Vector {-304.472; 530.000};
+	velocity   : Vector {-210.506; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D1F630] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F640;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-210.527; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F930] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F940;
+	level      : 1;
+	coordinate : Vector {763.272; 201.000};
+	velocity   : Vector {-210.506; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FC30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FC40;
+	level      : 1;
+	coordinate : Vector {425.460; 201.000};
+	velocity   : Vector {-210.506; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F4B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F4C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-421.054; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FAB0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FAC0;
+	level      : 2;
+	coordinate : Vector {-254.080; 330.000};
+	velocity   : Vector {-421.012; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F7B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F7C0;
+	level      : 3;
+	coordinate : Vector {421.543; 440.000};
+	velocity   : Vector {-421.012; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D299D0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D299E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D29840] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D29850;
+	level      : 4;
+	coordinate : Vector {564.159; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EF858] {
+Object [0x0000000005D1DE30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1DE40;
+	level      : 0;
+	coordinate : Vector {-649.473; 530.000};
+	velocity   : Vector {-214.287; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D1F630] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F640;
+	level      : 1;
+	coordinate : Vector {759.999; 201.000};
+	velocity   : Vector {-214.287; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F930] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F940;
+	level      : 1;
+	coordinate : Vector {418.271; 201.000};
+	velocity   : Vector {-214.287; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FC30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FC40;
+	level      : 1;
+	coordinate : Vector {80.459; 201.000};
+	velocity   : Vector {-214.287; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F330] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F340;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-428.616; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F4B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F4C0;
+	level      : 2;
+	coordinate : Vector {414.998; 330.000};
+	velocity   : Vector {-428.573; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FAB0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-428.616; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F7B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F7C0;
+	level      : 3;
+	coordinate : Vector {-268.459; 440.000};
+	velocity   : Vector {-428.573; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D299D0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D299E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D29840] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D29850;
+	level      : 4;
+	coordinate : Vector {594.318; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EF858] {
+Object [0x0000000005D1DE30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1DE40;
+	level      : 0;
+	coordinate : Vector {-191.719; 530.000};
+	velocity   : Vector {-218.157; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D1F7B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F7C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-218.178; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F630] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F640;
+	level      : 1;
+	coordinate : Vector {410.776; 201.000};
+	velocity   : Vector {-218.157; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F930] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F940;
+	level      : 1;
+	coordinate : Vector {69.048; 201.000};
+	velocity   : Vector {-218.157; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FC30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FC40;
+	level      : 1;
+	coordinate : Vector {-268.764; 201.000};
+	velocity   : Vector {-218.157; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F330] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F340;
+	level      : 2;
+	coordinate : Vector {406.554; 330.000};
+	velocity   : Vector {-436.313; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F4B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F4C0;
+	level      : 2;
+	coordinate : Vector {-283.448; 330.000};
+	velocity   : Vector {-436.313; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F1B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F1C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-436.357; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FAB0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FAC0;
+	level      : 3;
+	coordinate : Vector {406.554; 440.000};
+	velocity   : Vector {-436.313; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D299D0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D299E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D29840] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D29850;
+	level      : 4;
+	coordinate : Vector {617.194; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EF858] {
+Object [0x0000000005D1DE30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1DE40;
+	level      : 0;
+	coordinate : Vector {-544.573; 530.000};
+	velocity   : Vector {-222.074; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D1F7B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F7C0;
+	level      : 1;
+	coordinate : Vector {752.146; 201.000};
+	velocity   : Vector {-222.074; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F630] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F640;
+	level      : 1;
+	coordinate : Vector {57.922; 201.000};
+	velocity   : Vector {-222.074; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F930] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F940;
+	level      : 1;
+	coordinate : Vector {-283.806; 201.000};
+	velocity   : Vector {-222.074; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F4B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F4C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-444.193; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F330] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F340;
+	level      : 2;
+	coordinate : Vector {-299.153; 330.000};
+	velocity   : Vector {-444.149; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FC30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-444.193; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F1B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F1C0;
+	level      : 3;
+	coordinate : Vector {399.293; 440.000};
+	velocity   : Vector {-444.149; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FAB0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FAC0;
+	level      : 3;
+	coordinate : Vector {-299.153; 440.000};
+	velocity   : Vector {-444.149; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D29840] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D29850;
+	level      : 4;
+	coordinate : Vector {632.154; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EF858] {
+Object [0x0000000005D1DE30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1DE40;
+	level      : 0;
+	coordinate : Vector {-93.367; 530.000};
+	velocity   : Vector {-226.017; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D1F7B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F7C0;
+	level      : 1;
+	coordinate : Vector {396.570; 201.000};
+	velocity   : Vector {-226.017; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F630] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F640;
+	level      : 1;
+	coordinate : Vector {-297.654; 201.000};
+	velocity   : Vector {-226.017; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FAB0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-452.080; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F4B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F4C0;
+	level      : 2;
+	coordinate : Vector {393.848; 330.000};
+	velocity   : Vector {-452.034; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F930] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F940;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-452.080; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FC30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FC40;
+	level      : 3;
+	coordinate : Vector {393.848; 440.000};
+	velocity   : Vector {-452.034; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F1B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F1C0;
+	level      : 3;
+	coordinate : Vector {-311.859; 440.000};
+	velocity   : Vector {-452.034; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D29840] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D29850;
+	level      : 4;
+	coordinate : Vector {639.072; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EF858] {
+Object [0x0000000005D1DE30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1DE40;
+	level      : 0;
+	coordinate : Vector {-453.641; 530.000};
+	velocity   : Vector {-230.007; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D1F7B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F7C0;
+	level      : 1;
+	coordinate : Vector {36.296; 201.000};
+	velocity   : Vector {-230.007; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F630] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F640;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-460.060; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FAB0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FAC0;
+	level      : 2;
+	coordinate : Vector {384.452; 330.000};
+	velocity   : Vector {-460.014; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F4B0] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F4C0;
+	level      : 2;
+	coordinate : Vector {-326.700; 330.000};
+	velocity   : Vector {-460.014; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1F930] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1F940;
+	level      : 3;
+	coordinate : Vector {384.452; 440.000};
+	velocity   : Vector {-460.014; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D1FC30] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D1FC40;
+	level      : 3;
+	coordinate : Vector {-326.700; 440.000};
+	velocity   : Vector {-460.014; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D29840] {
+	engine     : 0x00000000001EF858;
+	sprite     : 0x0000000005D29850;
+	level      : 4;
+	coordinate : Vector {642.793; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-431.675; 530.000};
+	velocity   : Vector {-202.941; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEFAB0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFAC0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-405.923; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF99D0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-405.923; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-405.923; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {478.858; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-617.092; 530.000};
+	velocity   : Vector {-205.001; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-205.022; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFAB0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFAC0;
+	level      : 2;
+	coordinate : Vector {984.166; 330.000};
+	velocity   : Vector {-410.003; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF99D0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF630] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF640;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-410.044; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 3;
+	coordinate : Vector {1334.166; 440.000};
+	velocity   : Vector {-410.003; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 3;
+	coordinate : Vector {734.166; 440.000};
+	velocity   : Vector {-410.003; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {508.108; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-149.931; 530.000};
+	velocity   : Vector {-208.766; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 1;
+	coordinate : Vector {765.269; 201.000};
+	velocity   : Vector {-208.766; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFAB0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFAC0;
+	level      : 2;
+	coordinate : Vector {304.704; 330.000};
+	velocity   : Vector {-417.533; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF99D0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF4B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF4C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-417.574; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF630] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF640;
+	level      : 3;
+	coordinate : Vector {425.537; 440.000};
+	velocity   : Vector {-417.533; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 3;
+	coordinate : Vector {654.704; 440.000};
+	velocity   : Vector {-417.533; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 3;
+	coordinate : Vector {54.704; 440.000};
+	velocity   : Vector {-417.533; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {467.235; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-493.771; 530.000};
+	velocity   : Vector {-212.558; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 1;
+	coordinate : Vector {421.429; 201.000};
+	velocity   : Vector {-212.558; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFAB0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFAC0;
+	level      : 2;
+	coordinate : Vector {-382.976; 330.000};
+	velocity   : Vector {-425.116; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF99D0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-212.579; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF4B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF4C0;
+	level      : 3;
+	coordinate : Vector {417.320; 440.000};
+	velocity   : Vector {-425.116; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF630] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF640;
+	level      : 3;
+	coordinate : Vector {-262.143; 440.000};
+	velocity   : Vector {-425.116; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 3;
+	coordinate : Vector {-32.976; 440.000};
+	velocity   : Vector {-425.116; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {436.047; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-33.088; 530.000};
+	velocity   : Vector {-216.397; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-216.418; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 1;
+	coordinate : Vector {75.467; 201.000};
+	velocity   : Vector {-216.397; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF99D0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 3;
+	coordinate : Vector {759.039; 440.000};
+	velocity   : Vector {-216.397; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF4B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF4C0;
+	level      : 3;
+	coordinate : Vector {-274.603; 440.000};
+	velocity   : Vector {-432.793; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {417.733; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-383.103; 530.000};
+	velocity   : Vector {-220.283; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF4B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF4C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-220.305; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 1;
+	coordinate : Vector {754.985; 201.000};
+	velocity   : Vector {-220.283; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 1;
+	coordinate : Vector {-274.547; 201.000};
+	velocity   : Vector {-220.283; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF99D0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 3;
+	coordinate : Vector {409.024; 440.000};
+	velocity   : Vector {-220.283; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {405.873; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-737.393; 530.000};
+	velocity   : Vector {-224.216; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF4B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF4C0;
+	level      : 1;
+	coordinate : Vector {750.710; 201.000};
+	velocity   : Vector {-224.216; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 1;
+	coordinate : Vector {400.695; 201.000};
+	velocity   : Vector {-224.216; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF630] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF640;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-448.478; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF99D0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-448.478; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 3;
+	coordinate : Vector {54.734; 440.000};
+	velocity   : Vector {-224.216; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {398.579; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-290.509; 530.000};
+	velocity   : Vector {-228.197; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF4B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF4C0;
+	level      : 1;
+	coordinate : Vector {391.480; 201.000};
+	velocity   : Vector {-228.197; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 1;
+	coordinate : Vector {41.465; 201.000};
+	velocity   : Vector {-228.197; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF630] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF640;
+	level      : 2;
+	coordinate : Vector {386.540; 330.000};
+	velocity   : Vector {-456.395; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF99D0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEFAB0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-228.220; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 3;
+	coordinate : Vector {386.540; 440.000};
+	velocity   : Vector {-456.395; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 3;
+	coordinate : Vector {-304.496; 440.000};
+	velocity   : Vector {-228.197; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {393.911; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-653.341; 530.000};
+	velocity   : Vector {-232.226; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-232.249; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF4B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF4C0;
+	level      : 1;
+	coordinate : Vector {28.648; 201.000};
+	velocity   : Vector {-232.226; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 1;
+	coordinate : Vector {-321.366; 201.000};
+	velocity   : Vector {-232.226; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF630] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF640;
+	level      : 2;
+	coordinate : Vector {-339.124; 330.000};
+	velocity   : Vector {-464.451; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFAB0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFAC0;
+	level      : 3;
+	coordinate : Vector {742.168; 440.000};
+	velocity   : Vector {-232.226; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 3;
+	coordinate : Vector {-339.124; 440.000};
+	velocity   : Vector {-464.451; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {392.616; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000019F6D8] {
+Object [0x0000000005AEDE30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEDE40;
+	level      : 0;
+	coordinate : Vector {-214.881; 530.000};
+	velocity   : Vector {-236.278; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AEF930] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF940;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-236.302; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFC30] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFC40;
+	level      : 1;
+	coordinate : Vector {737.419; 201.000};
+	velocity   : Vector {-236.278; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF4B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF4C0;
+	level      : 1;
+	coordinate : Vector {-338.932; 201.000};
+	velocity   : Vector {-236.278; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEF7B0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEF7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-472.603; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AEFAB0] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AEFAC0;
+	level      : 3;
+	coordinate : Vector {374.588; 440.000};
+	velocity   : Vector {-236.278; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AF9840] {
+	engine     : 0x000000000019F6D8;
+	sprite     : 0x0000000005AF9850;
+	level      : 4;
+	coordinate : Vector {393.022; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-431.423; 530.000};
+	velocity   : Vector {-203.063; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-406.167; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {477.695; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-768.975; 530.000};
+	velocity   : Vector {-206.813; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-206.834; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 2;
+	coordinate : Vector {429.896; 330.000};
+	velocity   : Vector {-413.626; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-413.668; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {522.332; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-302.958; 530.000};
+	velocity   : Vector {-210.590; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF7B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF7C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-210.611; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {764.166; 201.000};
+	velocity   : Vector {-210.590; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 2;
+	coordinate : Vector {-251.771; 330.000};
+	velocity   : Vector {-421.181; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF630] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF640;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-421.223; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 3;
+	coordinate : Vector {423.333; 440.000};
+	velocity   : Vector {-421.181; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {559.513; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-647.444; 530.000};
+	velocity   : Vector {-214.415; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF7B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF7C0;
+	level      : 1;
+	coordinate : Vector {760.514; 201.000};
+	velocity   : Vector {-214.415; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {419.680; 201.000};
+	velocity   : Vector {-214.415; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-428.873; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF630] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF640;
+	level      : 3;
+	coordinate : Vector {416.028; 440.000};
+	velocity   : Vector {-428.830; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 3;
+	coordinate : Vector {-265.639; 440.000};
+	velocity   : Vector {-428.830; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {588.283; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-189.884; 530.000};
+	velocity   : Vector {-218.287; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF7B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF7C0;
+	level      : 1;
+	coordinate : Vector {411.743; 201.000};
+	velocity   : Vector {-218.287; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {70.909; 201.000};
+	velocity   : Vector {-218.287; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-218.309; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 3;
+	coordinate : Vector {407.458; 440.000};
+	velocity   : Vector {-436.575; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF630] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF640;
+	level      : 3;
+	coordinate : Vector {-281.515; 440.000};
+	velocity   : Vector {-436.575; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {610.180; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-542.957; 530.000};
+	velocity   : Vector {-222.208; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF7B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF7C0;
+	level      : 1;
+	coordinate : Vector {58.669; 201.000};
+	velocity   : Vector {-222.208; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {-282.164; 201.000};
+	velocity   : Vector {-222.208; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF4C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-444.460; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF630] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF640;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-444.460; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 3;
+	coordinate : Vector {751.927; 440.000};
+	velocity   : Vector {-222.208; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 3;
+	coordinate : Vector {-298.689; 440.000};
+	velocity   : Vector {-444.415; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {625.820; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-92.622; 530.000};
+	velocity   : Vector {-226.153; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-226.175; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF7B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF7C0;
+	level      : 1;
+	coordinate : Vector {-297.574; 201.000};
+	velocity   : Vector {-226.153; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF4C0;
+	level      : 2;
+	coordinate : Vector {392.514; 330.000};
+	velocity   : Vector {-452.306; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF630] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF640;
+	level      : 3;
+	coordinate : Vector {392.514; 440.000};
+	velocity   : Vector {-452.306; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 3;
+	coordinate : Vector {395.684; 440.000};
+	velocity   : Vector {-226.153; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {633.979; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-452.673; 530.000};
+	velocity   : Vector {-230.145; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF7B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF7C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-230.168; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {744.949; 201.000};
+	velocity   : Vector {-230.145; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-460.336; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF4C0;
+	level      : 2;
+	coordinate : Vector {-327.589; 330.000};
+	velocity   : Vector {-460.290; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF630] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF640;
+	level      : 3;
+	coordinate : Vector {-327.589; 440.000};
+	velocity   : Vector {-460.290; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 3;
+	coordinate : Vector {35.632; 440.000};
+	velocity   : Vector {-230.145; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {637.090; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-10.447; 530.000};
+	velocity   : Vector {-234.185; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF630] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF640;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-234.208; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF7B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF7C0;
+	level      : 1;
+	coordinate : Vector {741.175; 201.000};
+	velocity   : Vector {-234.185; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {381.123; 201.000};
+	velocity   : Vector {-234.185; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 2;
+	coordinate : Vector {377.349; 330.000};
+	velocity   : Vector {-468.369; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 3;
+	coordinate : Vector {-328.193; 440.000};
+	velocity   : Vector {-234.185; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD99D0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {635.509; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001EFC48] {
+Object [0x0000000005BCDE30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCDE40;
+	level      : 0;
+	coordinate : Vector {-379.768; 530.000};
+	velocity   : Vector {-238.200; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BCF930] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF940;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-238.223; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF630] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF640;
+	level      : 1;
+	coordinate : Vector {735.679; 201.000};
+	velocity   : Vector {-238.200; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF7B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF7C0;
+	level      : 1;
+	coordinate : Vector {371.854; 201.000};
+	velocity   : Vector {-238.200; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFAB0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFAC0;
+	level      : 1;
+	coordinate : Vector {11.803; 201.000};
+	velocity   : Vector {-238.200; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCFC30] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCFC40;
+	level      : 2;
+	coordinate : Vector {-361.292; 330.000};
+	velocity   : Vector {-476.399; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BCF4B0] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BCF4C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-476.447; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BD9840] {
+	engine     : 0x00000000001EFC48;
+	sprite     : 0x0000000005BD9850;
+	level      : 4;
+	coordinate : Vector {632.371; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-431.082; 530.000};
+	velocity   : Vector {-202.252; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-202.273; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B699D0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B699E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {477.736; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-768.100; 530.000};
+	velocity   : Vector {-205.988; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {767.982; 201.000};
+	velocity   : Vector {-205.988; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-412.016; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B699D0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B699E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-412.016; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FAB0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-412.016; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {524.745; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-153.965; 530.000};
+	velocity   : Vector {-208.120; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-208.141; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {576.042; 201.000};
+	velocity   : Vector {-208.120; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-416.282; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 2;
+	coordinate : Vector {971.120; 330.000};
+	velocity   : Vector {-416.240; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B699D0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B699E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 3;
+	coordinate : Vector {1321.120; 440.000};
+	velocity   : Vector {-416.240; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FAB0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FAC0;
+	level      : 3;
+	coordinate : Vector {721.120; 440.000};
+	velocity   : Vector {-416.240; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {454.010; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-496.094; 530.000};
+	velocity   : Vector {-211.921; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 1;
+	coordinate : Vector {762.871; 201.000};
+	velocity   : Vector {-211.921; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {233.913; 201.000};
+	velocity   : Vector {-211.921; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-423.885; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 2;
+	coordinate : Vector {420.743; 330.000};
+	velocity   : Vector {-423.842; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 2;
+	coordinate : Vector {286.862; 330.000};
+	velocity   : Vector {-423.842; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B699D0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B699E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 3;
+	coordinate : Vector {636.862; 440.000};
+	velocity   : Vector {-423.842; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FAB0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FAC0;
+	level      : 3;
+	coordinate : Vector {36.862; 440.000};
+	velocity   : Vector {-423.842; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {426.227; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-35.908; 530.000};
+	velocity   : Vector {-215.770; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 1;
+	coordinate : Vector {416.421; 201.000};
+	velocity   : Vector {-215.770; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {-112.537; 201.000};
+	velocity   : Vector {-215.770; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-431.583; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 2;
+	coordinate : Vector {412.099; 330.000};
+	velocity   : Vector {-431.540; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 2;
+	coordinate : Vector {-272.158; 330.000};
+	velocity   : Vector {-431.540; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 3;
+	coordinate : Vector {-56.039; 440.000};
+	velocity   : Vector {-431.540; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {407.030; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-385.097; 530.000};
+	velocity   : Vector {-219.623; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 1;
+	coordinate : Vector {67.233; 201.000};
+	velocity   : Vector {-219.623; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-439.290; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 2;
+	coordinate : Vector {406.624; 330.000};
+	velocity   : Vector {-439.246; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 2;
+	coordinate : Vector {-286.277; 330.000};
+	velocity   : Vector {-439.246; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-439.290; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {396.719; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-738.079; 530.000};
+	velocity   : Vector {-223.478; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-223.500; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 1;
+	coordinate : Vector {-285.749; 201.000};
+	velocity   : Vector {-223.478; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 2;
+	coordinate : Vector {399.036; 330.000};
+	velocity   : Vector {-446.955; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 2;
+	coordinate : Vector {-299.340; 330.000};
+	velocity   : Vector {-446.955; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-447.000; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 3;
+	coordinate : Vector {399.036; 440.000};
+	velocity   : Vector {-446.955; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {391.125; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-289.525; 530.000};
+	velocity   : Vector {-227.446; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 1;
+	coordinate : Vector {746.942; 201.000};
+	velocity   : Vector {-227.446; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 2;
+	coordinate : Vector {-317.081; 330.000};
+	velocity   : Vector {-454.891; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-227.468; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 3;
+	coordinate : Vector {388.883; 440.000};
+	velocity   : Vector {-454.891; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 3;
+	coordinate : Vector {-317.081; 440.000};
+	velocity   : Vector {-454.891; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {387.541; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-652.302; 530.000};
+	velocity   : Vector {-231.461; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-231.484; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 1;
+	coordinate : Vector {384.164; 201.000};
+	velocity   : Vector {-231.461; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-462.968; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 3;
+	coordinate : Vector {742.223; 440.000};
+	velocity   : Vector {-231.461; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 3;
+	coordinate : Vector {-336.671; 440.000};
+	velocity   : Vector {-462.921; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {385.741; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-211.930; 530.000};
+	velocity   : Vector {-235.523; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-235.547; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {738.407; 201.000};
+	velocity   : Vector {-235.523; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 1;
+	coordinate : Vector {17.571; 201.000};
+	velocity   : Vector {-235.523; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-471.093; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 3;
+	coordinate : Vector {371.814; 440.000};
+	velocity   : Vector {-471.046; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 3;
+	coordinate : Vector {375.630; 440.000};
+	velocity   : Vector {-235.523; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {385.866; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-581.837; 530.000};
+	velocity   : Vector {-239.609; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 1;
+	coordinate : Vector {735.093; 201.000};
+	velocity   : Vector {-239.609; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {368.500; 201.000};
+	velocity   : Vector {-239.609; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 1;
+	coordinate : Vector {-352.335; 201.000};
+	velocity   : Vector {-239.609; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FAB0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-239.633; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 3;
+	coordinate : Vector {365.187; 440.000};
+	velocity   : Vector {-479.218; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 3;
+	coordinate : Vector {-367.999; 440.000};
+	velocity   : Vector {-479.218; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 3;
+	coordinate : Vector {5.723; 440.000};
+	velocity   : Vector {-239.609; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {388.371; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-148.433; 530.000};
+	velocity   : Vector {-243.741; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 1;
+	coordinate : Vector {361.701; 201.000};
+	velocity   : Vector {-243.741; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {-4.892; 201.000};
+	velocity   : Vector {-243.741; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-487.531; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F1B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F1C0;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-487.531; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-487.531; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FAB0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FAC0;
+	level      : 3;
+	coordinate : Vector {731.608; 440.000};
+	velocity   : Vector {-243.741; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 3;
+	coordinate : Vector {-381.598; 440.000};
+	velocity   : Vector {-487.483; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 3;
+	coordinate : Vector {-367.669; 440.000};
+	velocity   : Vector {-243.741; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {394.220; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-416.987; 530.000};
+	velocity   : Vector {-246.684; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-246.708; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 1;
+	coordinate : Vector {93.147; 201.000};
+	velocity   : Vector {-246.684; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 1;
+	coordinate : Vector {-273.446; 201.000};
+	velocity   : Vector {-246.684; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 2;
+	coordinate : Vector {817.892; 330.000};
+	velocity   : Vector {-493.367; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F1B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F1C0;
+	level      : 3;
+	coordinate : Vector {1167.892; 440.000};
+	velocity   : Vector {-493.367; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 3;
+	coordinate : Vector {567.892; 440.000};
+	velocity   : Vector {-493.367; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FAB0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FAC0;
+	level      : 3;
+	coordinate : Vector {463.054; 440.000};
+	velocity   : Vector {-246.684; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {634.524; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000031FCA8] {
+Object [0x0000000005B5DE30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5DE40;
+	level      : 0;
+	coordinate : Vector {-797.643; 530.000};
+	velocity   : Vector {-250.888; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B5F630] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F640;
+	level      : 1;
+	coordinate : Vector {724.344; 201.000};
+	velocity   : Vector {-250.888; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F4B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F4C0;
+	level      : 1;
+	coordinate : Vector {-287.509; 201.000};
+	velocity   : Vector {-250.888; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F930] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F940;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-501.826; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F7B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F7C0;
+	level      : 2;
+	coordinate : Vector {56.581; 330.000};
+	velocity   : Vector {-501.776; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F030] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F040;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-501.826; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FC30] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-501.826; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F1B0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F1C0;
+	level      : 3;
+	coordinate : Vector {406.581; 440.000};
+	velocity   : Vector {-501.776; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5F330] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5F340;
+	level      : 3;
+	coordinate : Vector {-193.419; 440.000};
+	velocity   : Vector {-501.776; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B5FAB0] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B5FAC0;
+	level      : 3;
+	coordinate : Vector {82.398; 440.000};
+	velocity   : Vector {-250.888; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B69840] {
+	engine     : 0x000000000031FCA8;
+	sprite     : 0x0000000005B69850;
+	level      : 4;
+	coordinate : Vector {650.599; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-15.901; 530.000};
+	velocity   : Vector {-207.289; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9FC30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-207.310; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {655.571; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-748.670; 530.000};
+	velocity   : Vector {-213.901; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9FC30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FC40;
+	level      : 1;
+	coordinate : Vector {372.231; 201.000};
+	velocity   : Vector {-213.901; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9FAB0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-213.923; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {634.987; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-680.264; 530.000};
+	velocity   : Vector {-222.097; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9FC30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FC40;
+	level      : 1;
+	coordinate : Vector {-366.307; 201.000};
+	velocity   : Vector {-222.097; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-444.237; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F930] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F940;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-444.237; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9FAB0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FAC0;
+	level      : 3;
+	coordinate : Vector {366.461; 440.000};
+	velocity   : Vector {-222.097; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {498.620; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-620.927; 530.000};
+	velocity   : Vector {-230.398; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 2;
+	coordinate : Vector {-389.972; 330.000};
+	velocity   : Vector {-460.797; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9FC30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-230.422; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F930] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F940;
+	level      : 3;
+	coordinate : Vector {-389.972; 440.000};
+	velocity   : Vector {-460.797; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9FAB0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FAC0;
+	level      : 3;
+	coordinate : Vector {-381.024; 440.000};
+	velocity   : Vector {-230.398; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {416.262; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-570.375; 530.000};
+	velocity   : Vector {-238.748; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F930] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F940;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-477.544; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-477.544; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9FAB0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-477.544; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9FC30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FC40;
+	level      : 3;
+	coordinate : Vector {349.250; 440.000};
+	velocity   : Vector {-238.748; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {391.159; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-415.057; 530.000};
+	velocity   : Vector {-245.969; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-491.988; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F930] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F940;
+	level      : 2;
+	coordinate : Vector {53.512; 330.000};
+	velocity   : Vector {-491.939; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-491.988; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F630] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F640;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-491.988; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {403.512; 440.000};
+	velocity   : Vector {-491.939; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9FAB0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FAC0;
+	level      : 3;
+	coordinate : Vector {-196.488; 440.000};
+	velocity   : Vector {-491.939; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9FC30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9FC40;
+	level      : 3;
+	coordinate : Vector {-301.494; 440.000};
+	velocity   : Vector {-245.969; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {619.992; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-272.733; 530.000};
+	velocity   : Vector {-253.333; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-506.717; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 2;
+	coordinate : Vector {27.329; 330.000};
+	velocity   : Vector {-506.666; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 3;
+	coordinate : Vector {377.329; 440.000};
+	velocity   : Vector {-506.666; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F630] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F640;
+	level      : 3;
+	coordinate : Vector {-222.671; 440.000};
+	velocity   : Vector {-506.666; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {610.708; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-246.302; 530.000};
+	velocity   : Vector {-261.989; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-524.031; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {546.499; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-228.990; 530.000};
+	velocity   : Vector {-270.752; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-541.558; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {443.829; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-221.334; 530.000};
+	velocity   : Vector {-279.611; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-279.639; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {380.000; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-221.834; 530.000};
+	velocity   : Vector {-288.559; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-288.588; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-577.175; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {297.923; 440.000};
+	velocity   : Vector {-288.559; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {475.813; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-232.316; 530.000};
+	velocity   : Vector {-297.614; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-297.644; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 1;
+	coordinate : Vector {288.464; 201.000};
+	velocity   : Vector {-297.614; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-595.288; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {660.282; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-250.431; 530.000};
+	velocity   : Vector {-306.769; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 1;
+	coordinate : Vector {280.640; 201.000};
+	velocity   : Vector {-306.769; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-613.600; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {593.208; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-280.237; 530.000};
+	velocity   : Vector {-316.048; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-316.080; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {382.311; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-316.971; 530.000};
+	velocity   : Vector {-325.412; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-325.445; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {261.458; 440.000};
+	velocity   : Vector {-325.412; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {574.232; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-363.676; 530.000};
+	velocity   : Vector {-334.886; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 1;
+	coordinate : Vector {251.589; 201.000};
+	velocity   : Vector {-334.886; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-669.840; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-669.840; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {616.644; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-422.907; 530.000};
+	velocity   : Vector {-344.499; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-344.533; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-689.066; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {382.729; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-488.554; 530.000};
+	velocity   : Vector {-354.174; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 1;
+	coordinate : Vector {232.711; 201.000};
+	velocity   : Vector {-354.174; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-708.419; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {669.720; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-565.774; 530.000};
+	velocity   : Vector {-363.939; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-727.952; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-727.952; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {424.177; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-653.561; 530.000};
+	velocity   : Vector {-373.862; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-747.798; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-747.798; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-747.798; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {603.942; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-771.257; 530.000};
+	velocity   : Vector {-384.131; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-768.340; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 3;
+	coordinate : Vector {-143.826; 440.000};
+	velocity   : Vector {-768.263; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {502.596; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-72.909; 530.000};
+	velocity   : Vector {-394.289; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-788.656; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA99D0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-788.656; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-788.656; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {561.002; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-232.964; 530.000};
+	velocity   : Vector {-404.998; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-810.077; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F630] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F640;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-810.077; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-810.077; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F330] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F340;
+	level      : 3;
+	coordinate : Vector {-228.503; 440.000};
+	velocity   : Vector {-809.996; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {536.462; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-414.716; 530.000};
+	velocity   : Vector {-415.957; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-415.998; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-831.996; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F630] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F640;
+	level      : 3;
+	coordinate : Vector {-271.069; 440.000};
+	velocity   : Vector {-831.913; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {493.379; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FCF8] {
+Object [0x0000000005A9DE30] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9DE40;
+	level      : 0;
+	coordinate : Vector {-556.550; 530.000};
+	velocity   : Vector {-426.401; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005A9F7B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F7C0;
+	level      : 1;
+	coordinate : Vector {157.089; 201.000};
+	velocity   : Vector {-426.401; 0.000};
+	weight     : 100
+}
+Object [0x0000000005A9F4B0] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005A9F4C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-426.443; 0.000};
+	weight     : 100
+}
+Object [0x0000000005AA9840] {
+	engine     : 0x000000000024FCF8;
+	sprite     : 0x0000000005AA9850;
+	level      : 4;
+	coordinate : Vector {503.655; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000002FFC38] {
+Object [0x0000000005CEDE30] {
+	engine     : 0x00000000002FFC38;
+	sprite     : 0x0000000005CEDE40;
+	level      : 0;
+	coordinate : Vector {-15.912; 530.000};
+	velocity   : Vector {-207.269; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CEFC30] {
+	engine     : 0x00000000002FFC38;
+	sprite     : 0x0000000005CEFC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-207.289; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CF99D0] {
+	engine     : 0x00000000002FFC38;
+	sprite     : 0x0000000005CF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CF9840] {
+	engine     : 0x00000000002FFC38;
+	sprite     : 0x0000000005CF9850;
+	level      : 4;
+	coordinate : Vector {429931.041; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FB98] {
+Object [0x0000000005B4DE30] {
+	engine     : 0x000000000024FB98;
+	sprite     : 0x0000000005B4DE40;
+	level      : 0;
+	coordinate : Vector {-15.939; 530.000};
+	velocity   : Vector {-207.352; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B4FAB0] {
+	engine     : 0x000000000024FB98;
+	sprite     : 0x0000000005B4FAC0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-414.745; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B599D0] {
+	engine     : 0x000000000024FB98;
+	sprite     : 0x0000000005B599E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005B4F930] {
+	engine     : 0x000000000024FB98;
+	sprite     : 0x0000000005B4F940;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-414.745; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B4FC30] {
+	engine     : 0x000000000024FB98;
+	sprite     : 0x0000000005B4FC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-414.745; 0.000};
+	weight     : 100
+}
+Object [0x0000000005B59840] {
+	engine     : 0x000000000024FB98;
+	sprite     : 0x0000000005B59850;
+	level      : 4;
+	coordinate : Vector {81040.503; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-15.918; 530.000};
+	velocity   : Vector {-207.352; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-207.372; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-414.745; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {807.860; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-748.883; 530.000};
+	velocity   : Vector {-215.490; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 1;
+	coordinate : Vector {372.035; 201.000};
+	velocity   : Vector {-215.490; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-431.023; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 2;
+	coordinate : Vector {-360.929; 330.000};
+	velocity   : Vector {-430.980; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-431.023; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF930] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF940;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-431.023; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {782.289; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-545.605; 530.000};
+	velocity   : Vector {-222.185; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 1;
+	coordinate : Vector {-230.861; 201.000};
+	velocity   : Vector {-222.185; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 2;
+	coordinate : Vector {149.208; 330.000};
+	velocity   : Vector {-444.371; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-222.208; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 3;
+	coordinate : Vector {499.208; 440.000};
+	velocity   : Vector {-444.371; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF930] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF940;
+	level      : 3;
+	coordinate : Vector {-100.792; 440.000};
+	velocity   : Vector {-444.371; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {749.780; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-487.120; 530.000};
+	velocity   : Vector {-230.491; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-461.027; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-461.027; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-461.027; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 3;
+	coordinate : Vector {357.194; 440.000};
+	velocity   : Vector {-230.491; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {865.721; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-312.186; 530.000};
+	velocity   : Vector {-237.510; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF930] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF940;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-475.067; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 2;
+	coordinate : Vector {90.950; 330.000};
+	velocity   : Vector {-475.020; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 3;
+	coordinate : Vector {440.950; 440.000};
+	velocity   : Vector {-475.020; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 3;
+	coordinate : Vector {-159.050; 440.000};
+	velocity   : Vector {-475.020; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 3;
+	coordinate : Vector {-274.832; 440.000};
+	velocity   : Vector {-237.510; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {424.821; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-269.464; 530.000};
+	velocity   : Vector {-245.969; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF930] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF940;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-245.994; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {442.753; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-235.780; 530.000};
+	velocity   : Vector {-254.552; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-509.155; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-509.155; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-509.155; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF930] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF940;
+	level      : 3;
+	coordinate : Vector {332.474; 440.000};
+	velocity   : Vector {-254.552; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {389.852; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-110.626; 530.000};
+	velocity   : Vector {-262.120; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-524.293; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 2;
+	coordinate : Vector {-7.485; 330.000};
+	velocity   : Vector {-524.241; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 3;
+	coordinate : Vector {342.515; 440.000};
+	velocity   : Vector {-524.241; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 3;
+	coordinate : Vector {-257.485; 440.000};
+	velocity   : Vector {-524.241; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF930] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF940;
+	level      : 3;
+	coordinate : Vector {-348.768; 440.000};
+	velocity   : Vector {-262.120; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 1;
+	coordinate : Vector {50.000; 201.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {374.852; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-94.489; 530.000};
+	velocity   : Vector {-270.887; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-270.914; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {564.488; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-86.449; 530.000};
+	velocity   : Vector {-279.751; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-279.779; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 1;
+	coordinate : Vector {306.311; 201.000};
+	velocity   : Vector {-279.751; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-559.558; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {826.800; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-85.923; 530.000};
+	velocity   : Vector {-288.703; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-288.732; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 1;
+	coordinate : Vector {298.652; 201.000};
+	velocity   : Vector {-288.703; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-577.464; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {778.887; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-95.637; 530.000};
+	velocity   : Vector {-297.733; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 1;
+	coordinate : Vector {288.952; 201.000};
+	velocity   : Vector {-297.733; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-595.526; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-595.526; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB99D0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB99E0;
+	level      : 3;
+	coordinate : Vector {50.000; 440.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {377.128; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-113.990; 530.000};
+	velocity   : Vector {-306.892; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-613.845; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {319.671; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-143.960; 530.000};
+	velocity   : Vector {-316.175; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-316.206; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-632.412; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {795.662; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-181.110; 530.000};
+	velocity   : Vector {-325.542; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-325.575; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 1;
+	coordinate : Vector {261.767; 201.000};
+	velocity   : Vector {-325.542; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-651.150; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {581.091; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-227.336; 530.000};
+	velocity   : Vector {-335.020; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 1;
+	coordinate : Vector {251.888; 201.000};
+	velocity   : Vector {-335.020; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-670.108; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-670.108; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-670.108; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {299.020; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000017FAC8] {
+Object [0x0000000005CADE30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CADE40;
+	level      : 0;
+	coordinate : Vector {-267.752; 530.000};
+	velocity   : Vector {-344.395; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005CAF7B0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF7C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-344.430; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFAB0] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-688.860; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAF630] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAF640;
+	level      : 2;
+	coordinate : Vector {-338.161; 330.000};
+	velocity   : Vector {-688.791; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CAFC30] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CAFC40;
+	level      : 3;
+	coordinate : Vector {11.839; 440.000};
+	velocity   : Vector {-688.791; 0.000};
+	weight     : 100
+}
+Object [0x0000000005CB9840] {
+	engine     : 0x000000000017FAC8;
+	sprite     : 0x0000000005CB9850;
+	level      : 4;
+	coordinate : Vector {872.018; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001BFC68] {
+Object [0x0000000005BEDE30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEDE40;
+	level      : 0;
+	coordinate : Vector {-15.913; 530.000};
+	velocity   : Vector {-207.372; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEFC30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-207.393; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF99D0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEFAB0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-414.786; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF9840] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF9850;
+	level      : 4;
+	coordinate : Vector {670.008; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001BFC68] {
+Object [0x0000000005BEDE30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEDE40;
+	level      : 0;
+	coordinate : Vector {-748.063; 530.000};
+	velocity   : Vector {-215.490; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEF930] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEF940;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-215.511; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BEFC30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFC40;
+	level      : 1;
+	coordinate : Vector {372.850; 201.000};
+	velocity   : Vector {-215.490; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF99D0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEF7B0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEF7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-431.023; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BEFAB0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFAC0;
+	level      : 3;
+	coordinate : Vector {-359.299; 440.000};
+	velocity   : Vector {-430.980; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF9840] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF9850;
+	level      : 4;
+	coordinate : Vector {666.835; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001BFC68] {
+Object [0x0000000005BEDE30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEDE40;
+	level      : 0;
+	coordinate : Vector {-681.293; 530.000};
+	velocity   : Vector {-223.701; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEFAB0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFAC0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-223.724; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BEF930] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEF940;
+	level      : 1;
+	coordinate : Vector {365.216; 201.000};
+	velocity   : Vector {-223.701; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BEFC30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFC40;
+	level      : 1;
+	coordinate : Vector {-366.934; 201.000};
+	velocity   : Vector {-223.701; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF99D0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEF7B0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEF7C0;
+	level      : 3;
+	coordinate : Vector {-374.568; 440.000};
+	velocity   : Vector {-447.403; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF9840] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF9850;
+	level      : 4;
+	coordinate : Vector {555.849; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001BFC68] {
+Object [0x0000000005BEDE30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEDE40;
+	level      : 0;
+	coordinate : Vector {-623.724; 530.000};
+	velocity   : Vector {-232.017; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEFAB0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFAC0;
+	level      : 1;
+	coordinate : Vector {355.605; 201.000};
+	velocity   : Vector {-232.017; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BEF930] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEF940;
+	level      : 1;
+	coordinate : Vector {-384.180; 201.000};
+	velocity   : Vector {-232.017; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF99D0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEFC30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-464.080; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF9840] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF9850;
+	level      : 4;
+	coordinate : Vector {443.140; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x00000000001BFC68] {
+Object [0x0000000005BEDE30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEDE40;
+	level      : 0;
+	coordinate : Vector {-575.243; 530.000};
+	velocity   : Vector {-240.353; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEFC30] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFC40;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-480.754; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF99D0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF99E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005BEFAB0] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BEFAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-480.754; 0.000};
+	weight     : 100
+}
+Object [0x0000000005BF9840] {
+	engine     : 0x00000000001BFC68;
+	sprite     : 0x0000000005BF9850;
+	level      : 4;
+	coordinate : Vector {417.180; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-16.807; 530.000};
+	velocity   : Vector {-207.352; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0FC30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-207.372; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-414.745; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D199D0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D199E0;
+	level      : 2;
+	coordinate : Vector {50.000; 330.000};
+	velocity   : Vector {-0.000; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {787.231; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-748.632; 530.000};
+	velocity   : Vector {-215.447; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F930] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F940;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-215.468; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FC30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FC40;
+	level      : 1;
+	coordinate : Vector {373.175; 201.000};
+	velocity   : Vector {-215.447; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 2;
+	coordinate : Vector {-358.651; 330.000};
+	velocity   : Vector {-430.893; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {772.678; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-682.576; 530.000};
+	velocity   : Vector {-223.657; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F930] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F940;
+	level      : 1;
+	coordinate : Vector {364.496; 201.000};
+	velocity   : Vector {-223.657; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FC30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FC40;
+	level      : 1;
+	coordinate : Vector {-367.330; 201.000};
+	velocity   : Vector {-223.657; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-447.358; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {624.527; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-624.547; 530.000};
+	velocity   : Vector {-231.947; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F930] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F940;
+	level      : 1;
+	coordinate : Vector {-384.252; 201.000};
+	velocity   : Vector {-231.947; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F7B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-463.941; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 2;
+	coordinate : Vector {-392.495; 330.000};
+	velocity   : Vector {-463.894; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FC30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-463.941; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {527.676; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-577.292; 530.000};
+	velocity   : Vector {-240.353; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F7B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F7C0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-480.754; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FC30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FC40;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-480.754; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {491.095; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-537.286; 530.000};
+	velocity   : Vector {-248.864; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0FC30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FC40;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-248.889; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F7B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-497.778; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {493.919; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-505.208; 530.000};
+	velocity   : Vector {-257.445; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0FC30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FC40;
+	level      : 1;
+	coordinate : Vector {330.359; 201.000};
+	velocity   : Vector {-257.445; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F930] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F940;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-514.941; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-514.941; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F7B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F7C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-514.941; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {536.786; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-385.756; 530.000};
+	velocity   : Vector {-265.072; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F630] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F640;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-265.099; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FC30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FC40;
+	level      : 1;
+	coordinate : Vector {-356.756; 201.000};
+	velocity   : Vector {-265.072; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F930] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F940;
+	level      : 2;
+	coordinate : Vector {-19.231; 330.000};
+	velocity   : Vector {-530.145; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F4B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F4C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-530.198; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 3;
+	coordinate : Vector {330.769; 440.000};
+	velocity   : Vector {-530.145; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F7B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F7C0;
+	level      : 3;
+	coordinate : Vector {-269.231; 440.000};
+	velocity   : Vector {-530.145; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {814.939; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-372.710; 530.000};
+	velocity   : Vector {-273.856; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F630] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F640;
+	level      : 1;
+	coordinate : Vector {311.717; 201.000};
+	velocity   : Vector {-273.856; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-547.766; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F4B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F4C0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-547.766; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {775.774; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-368.646; 530.000};
+	velocity   : Vector {-282.760; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F4B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F4C0;
+	level      : 1;
+	coordinate : Vector {1105.000; 201.000};
+	velocity   : Vector {-282.789; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 2;
+	coordinate : Vector {1105.000; 330.000};
+	velocity   : Vector {-565.577; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {610.027; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-371.549; 530.000};
+	velocity   : Vector {-291.750; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F4B0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F4C0;
+	level      : 1;
+	coordinate : Vector {295.221; 201.000};
+	velocity   : Vector {-291.750; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F630] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F640;
+	level      : 2;
+	coordinate : Vector {1355.000; 330.000};
+	velocity   : Vector {-583.559; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F930] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F940;
+	level      : 3;
+	coordinate : Vector {1705.000; 440.000};
+	velocity   : Vector {-583.559; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-583.559; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {457.662; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
+Engine [0x000000000024FD78] {
+Object [0x0000000005D0DE30] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0DE40;
+	level      : 0;
+	coordinate : Vector {-323.511; 530.000};
+	velocity   : Vector {-300.154; 0.000};
+	weight     : 1000
+}
+Object [0x0000000005D0F630] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F640;
+	level      : 2;
+	coordinate : Vector {-161.583; 330.000};
+	velocity   : Vector {-600.309; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0FAB0] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0FAC0;
+	level      : 3;
+	coordinate : Vector {1105.000; 440.000};
+	velocity   : Vector {-300.184; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D0F930] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D0F940;
+	level      : 3;
+	coordinate : Vector {188.417; 440.000};
+	velocity   : Vector {-600.309; 0.000};
+	weight     : 100
+}
+Object [0x0000000005D19840] {
+	engine     : 0x000000000024FD78;
+	sprite     : 0x0000000005D19850;
+	level      : 4;
+	coordinate : Vector {739.212; 70.000};
+	velocity   : Vector {0.000; 0.000};
+	weight     : 1000
+}
+}
