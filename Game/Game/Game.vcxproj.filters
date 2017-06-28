@@ -25,24 +25,18 @@
     <Filter Include="Includes\Objects">
       <UniqueIdentifier>{e68f8da7-bf26-4d36-9a9c-14b3a82da8a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codes\Objects">
+      <UniqueIdentifier>{c1194dfe-afdf-48bd-a804-53b7a6c88250}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Includes\Vector\Vector.h">
       <Filter>Includes\Vector</Filter>
     </ClInclude>
-    <ClInclude Include="Includes\Engine.h">
-      <Filter>Includes</Filter>
-    </ClInclude>
     <ClInclude Include="Includes\Objects\Object.h">
       <Filter>Includes\Objects</Filter>
     </ClInclude>
-    <ClInclude Include="Includes\Objects\Barrier.h">
-      <Filter>Includes\Objects</Filter>
-    </ClInclude>
     <ClInclude Include="Includes\Objects\Background.h">
-      <Filter>Includes\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="Includes\Objects\NPS.h">
       <Filter>Includes\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Includes\Objects\PowerUP.h">
@@ -60,6 +54,12 @@
     <ClInclude Include="Includes\Objects\Hero.h">
       <Filter>Includes\Objects</Filter>
     </ClInclude>
+    <ClInclude Include="Includes\Objects\NPC.h">
+      <Filter>Includes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Engine.h">
+      <Filter>Resourses</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tests\test_1.cpp">
@@ -71,8 +71,32 @@
     <ClCompile Include="Tests\Test_Object.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
-    <ClCompile Include="Code\Main.cpp">
+    <ClCompile Include="Engine.cpp">
       <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Codes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Conductor.cpp">
+      <Filter>Codes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Codes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Main.cpp">
+      <Filter>Codes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Codes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Codes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Train.cpp">
+      <Filter>Codes\Objects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
